@@ -1,0 +1,40 @@
+{
+  "purpose": "正式开场内容输入；映射家里工程已实现的地图事件、流程、CG及对白配置，不新增平行加载器",
+  "openingId": "demo_opening_training",
+  "mediaType": "video",
+  "videoFile": "Assets/CG/cg_opening_training_v001.mp4",
+  "loop": false,
+  "onVideoEnded": "start_dialogue_once",
+  "onVideoSkipped": "start_dialogue_once",
+  "skipVideoLabel": "跳过",
+  "dialogue": [
+    {
+      "speaker": "主角",
+      "text": "这一式，总算比昨日稳了些。"
+    },
+    {
+      "speaker": "村民",
+      "text": "少侠！村外发现了山贼，他们放话，五日内若不交粮，就要闯进村来！"
+    },
+    {
+      "speaker": "主角",
+      "text": "村里的口粮，哪能交给他们。"
+    },
+    {
+      "speaker": "村民",
+      "text": "已有山贼在村外的房屋附近徘徊，大家都不敢出去。"
+    },
+    {
+      "speaker": "主角",
+      "text": "我去看看。你先通知乡亲们，别单独出村。"
+    }
+  ],
+  "completion": {
+    "trigger": "dialogue_completed_or_explicitly_skipped",
+    "saveFlag": "openingCompleted",
+    "returnTo": "existing_village_map_at_training_spawn",
+    "createQuest": false,
+    "createTimelineEvent": false
+  },
+  "resumePolicy": "use_existing_map_event_step_progress"
+}

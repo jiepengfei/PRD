@@ -1,0 +1,22 @@
+[
+  {
+    "file": "需求文档.md",
+    "bytes": 5075,
+    "sha256": "d2a788c427c0cacba99b1ffc5c74664f8df718ff88ca21da13866a82e82ba209"
+  },
+  {
+    "file": "README.md",
+    "bytes": 1768,
+    "sha256": "3748d8d8c314e5aebb7946bcb32ad5dae55cb70440cc74527bdc3b8fcfaa92df"
+  },
+  {
+    "file": "Assets/CG/cg_opening_training_v001.mp4",
+    "bytes": 3018258,
+    "sha256": "3740deb998afd41a6ca920d73434c483adb98a52874f559863365a71286f8022"
+  },
+  {
+    "file": "Data/opening.example.json",
+    "bytes": 1330,
+    "sha256": "4d45597330c9c7c74ac2969d7711a1cdd68666883802451e0cb4dcaad0aa0365"
+  }
+]

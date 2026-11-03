@@ -7,4 +7,5 @@
 
 ## 资源包
 
+- [正式开场需求、对白与练剑视频](Packages/DemoOpening/v01/README.md)：复用地图事件流程，视频→五句报信对白→恢复地图操作。
 - [对话 UI 美术与动画参考资源包](Packages/DialogueUI/README.md)
