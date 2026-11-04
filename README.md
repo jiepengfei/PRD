@@ -9,3 +9,4 @@
 
 - [正式开场需求、对白与练剑视频](Packages/DemoOpening/v01/README.md)：复用地图事件流程，视频→五句报信对白→恢复地图操作。
 - [对话 UI 美术与动画参考资源包](Packages/DialogueUI/README.md)
+- [存档系统需求与 UI 美术完整交付包](Packages/SaveLoadSystem/README.md)：含可配置槽位、地图进度恢复、存读 UI、独立 PNG 与完整压缩包。
