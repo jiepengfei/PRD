@@ -1,0 +1,12 @@
+{
+  "dungeonId": "dungeon_branch_smoke",
+  "name": "地下城流程测试",
+  "startNodeId": "entrance",
+  "nodes": [
+    {"nodeId": "entrance", "type": "dialogue", "contentRef": "REPLACE_WITH_EXISTING_DIALOGUE", "nextNodeIds": ["battle_left", "battle_right"], "order": 0},
+    {"nodeId": "battle_left", "type": "battle", "contentRef": "REPLACE_WITH_EXISTING_BATTLE_A", "nextNodeIds": ["supply"], "order": 0},
+    {"nodeId": "battle_right", "type": "battle", "contentRef": "REPLACE_WITH_EXISTING_BATTLE_B", "nextNodeIds": ["supply"], "order": 1},
+    {"nodeId": "supply", "type": "supply", "contentRef": "REPLACE_WITH_EXISTING_SUPPLY", "nextNodeIds": [], "order": 0}
+  ],
+  "note": "契约样例，引用为显式占位；实施时映射工程已有流程引用格式，不得直接以占位ID运行。"
+}

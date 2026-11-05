@@ -1,0 +1,87 @@
+{
+  "source": "User-selected second icon set (flat)",
+  "alpha": "Near-black matte converted to alpha; inspect edges in Unity",
+  "unityTested": false,
+  "icons": [
+    {
+      "id": "battle",
+      "file": "Assets/Icons/ui_dungeon_battle_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "boss",
+      "file": "Assets/Icons/ui_dungeon_boss_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "chest",
+      "file": "Assets/Icons/ui_dungeon_chest_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "story",
+      "file": "Assets/Icons/ui_dungeon_story_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "charm",
+      "file": "Assets/Icons/ui_dungeon_charm_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "explore",
+      "file": "Assets/Icons/ui_dungeon_explore_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "shop",
+      "file": "Assets/Icons/ui_dungeon_shop_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "forge",
+      "file": "Assets/Icons/ui_dungeon_forge_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "supply",
+      "file": "Assets/Icons/ui_dungeon_supply_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    },
+    {
+      "id": "portal",
+      "file": "Assets/Icons/ui_dungeon_portal_v001.png",
+      "width": 256,
+      "height": 256,
+      "alphaMin": 0,
+      "alphaMax": 255
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 1160,
+    "sha256": "0b02c17f10ff648d9e19c6997b4558f37a3b88c230e1adb6cc7a6fecb7c09619"
+  },
+  {
+    "file": "Requirements/Dungeon/v01/地下城节点流程与UI需求.md",
+    "bytes": 8872,
+    "sha256": "9b33f9a3d319bb5a018347fe53afb0698b2fcc8d03abad6aa8543739afdfc939"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Backgrounds/ui_dungeon_paper_v001.png",
+    "bytes": 18337,
+    "sha256": "032e37d497402dfc2651d9c7e0fa884534d46e65383d68170ab3363d65f19333"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_battle_v001.png",
+    "bytes": 49610,
+    "sha256": "770df9745eaa4b65a68bd085fa52958e1f27de12eed30054452944b1b551fad7"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_boss_v001.png",
+    "bytes": 52786,
+    "sha256": "649b99069a66dd5c7720663383cb1b1bdd5932cbe941c4252d85febf839a8d5e"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_charm_v001.png",
+    "bytes": 61062,
+    "sha256": "494981c5277c3a834984fb31307535f6580ac86f377e0e7ea64bf71780890094"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_chest_v001.png",
+    "bytes": 58826,
+    "sha256": "3746cdd3c92d3adacaea574e81e7f8b60130685505def41e5a0288f210d5ce6e"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_explore_v001.png",
+    "bytes": 58122,
+    "sha256": "16161af8b305fe2b58e4696689d66168a59cd4671338dd10bb97ecb8364f4a08"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_forge_v001.png",
+    "bytes": 40541,
+    "sha256": "efecb25a6899ff7d0b657a4a37a27ed9c62e0462a9c4deb766e56b651e53c46f"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_portal_v001.png",
+    "bytes": 74284,
+    "sha256": "3e79bf5ee084cbeac0979f2d2fbc760d805db90b0fd369a4d4ea4147125ac662"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_shop_v001.png",
+    "bytes": 54370,
+    "sha256": "e23480b47a4aabc8bfb015bbae2819b62a73981658a7d99e58927f88972bd72b"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_story_v001.png",
+    "bytes": 60503,
+    "sha256": "22dc0087864c146f3505e306ddc54eaaf690d4a642c0f8442bf826d832fe137d"
+  },
+  {
+    "file": "UI/Dungeon/v02/Assets/Icons/ui_dungeon_supply_v001.png",
+    "bytes": 51171,
+    "sha256": "6d51ba138d910e47effba99a2c24e52824fb939704ad0ae801631c27b4f10787"
+  },
+  {
+    "file": "UI/Dungeon/v02/Data/dungeon-example.json",
+    "bytes": 806,
+    "sha256": "62e362b076c0435765c5cb67645e12afaa948dab79ca1be2728c9db226878ebe"
+  },
+  {
+    "file": "UI/Dungeon/v02/Data/icon-manifest.json",
+    "bytes": 1915,
+    "sha256": "80f5f6a7ce4881310151ba363791fb75e2575f1fc815e3740c54bde1bb089bd1"
+  },
+  {
+    "file": "UI/Dungeon/v02/Data/preview-checks.json",
+    "bytes": 148,
+    "sha256": "9e6ef3d0eeb54b902a03e6b854b9a3531bbf7dd60edf47d0a1b90fda8faa6d16"
+  },
+  {
+    "file": "UI/Dungeon/v02/Data/visual-layout.json",
+    "bytes": 784,
+    "sha256": "2dd9fcb07665fdc5e04522fc450679103abca19884361883c279be40265c1aed"
+  },
+  {
+    "file": "UI/Dungeon/v02/README.md",
+    "bytes": 2382,
+    "sha256": "c8a5883cccd27e58155c452a9be39e7adeecca84d29f13a0cb964c1de9d8e51f"
+  },
+  {
+    "file": "UI/Dungeon/v02/Reference/branch-layout-example.png",
+    "bytes": 139450,
+    "sha256": "82216edd440b6629068b9d102099fbdb3359d3088fc284523b7af33100e5c539"
+  },
+  {
+    "file": "UI/Dungeon/v02/Reference/dungeon-approved.png",
+    "bytes": 121614,
+    "sha256": "6e4f99df74ad28e5b5574a5836f5ef747b83e3fb46e1e711a06d40ddce1608f1"
+  },
+  {
+    "file": "UI/Dungeon/v02/Reference/icons-contact-sheet.png",
+    "bytes": 305164,
+    "sha256": "7ef02b40065470a20d79a33a4b5d744610c5ec28dbb882cdb92a5e66d5abd78a"
+  },
+  {
+    "file": "UI/Dungeon/v02/Source/build-package.cjs",
+    "bytes": 6552,
+    "sha256": "3c05ba4e9e61b4f5ba145f424956ee27413134b0ceb6ac9365314f2fdafae6c0"
+  },
+  {
+    "file": "UI/Dungeon/v02/Source/dungeon-approved.html",
+    "bytes": 822775,
+    "sha256": "76f2500466566fadb0c3cd0bf941ff3d0c69a386611e548fe0ac01493c4bae4c"
+  },
+  {
+    "file": "UI/Dungeon/v02/Source/user-flat-icon-sheet.png",
+    "bytes": 1094461,
+    "sha256": "cbae3df75a7dabdffb39d414a4f22b2270512ceb2848ff8e6a8a63799b75250f"
+  }
+]
