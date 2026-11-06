@@ -3,6 +3,8 @@
 
 ## 需求方案
 
+- [主线 Step 06：村长对话与离村出口开放](Requirements/DemoMainline/v01/Step06_村长对话与离村出口开放.md)：战后引导找村长、对白后开放出口及定位；本次仅上传需求，未下发执行。
+
 - [主线 Step 05：小兵二、补给与首领战](Requirements/DemoMainline/v01/Step05_小兵二补给与首领战.md)：接齐首领关卡后三节点，胜利完成地下城与主线；当前仅上传，未下发实施。
 
 - [主线 Step 04：首领入口与第一场小兵战](Requirements/DemoMainline/v01/Step04_首领入口与第一场小兵战.md)：地图入口接正式地下城，第一战胜利推进阶段；本轮不接完整首领关卡。
@@ -24,5 +26,6 @@
 
 
 - [地下城配置化流程与 UI 美术交付包](Packages/DungeonSystem/README.md)：配置生成节点、分叉汇合、执行与进度恢复，以及第二版定稿图标。
+
 
 
