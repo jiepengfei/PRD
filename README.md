@@ -29,3 +29,4 @@
 
 
 
+- [补给与送别 CG 接入需求及资源](Packages/DemoSupplyFarewell/README.md)：仅两段图片和对白，串通正常结尾；不含回忆、烧抢或支线，本次只上传。

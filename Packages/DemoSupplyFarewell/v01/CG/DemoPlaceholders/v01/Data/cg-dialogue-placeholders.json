@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "status": "temporary_content_only_not_runtime_schema",
+  "textBakedIntoImages": false,
+  "scenes": [
+    {
+      "contentId": "demo_placeholder_supply",
+      "image": "../Images/cg_supply_placeholder_v001.png",
+      "title": "村民补给",
+      "lines": [
+        {
+          "speaker": "村民",
+          "text": "少侠，带上这些药和干粮，先歇一歇。"
+        },
+        {
+          "speaker": "主角",
+          "text": "多谢。你们先回村，剩下的交给我。"
+        }
+      ],
+      "integrationNote": "对白完成或跳过后，由现有补给节点统一结算一次治疗，不能靠台词触发回血。"
+    },
+    {
+      "contentId": "demo_placeholder_farewell",
+      "image": "../Images/cg_farewell_placeholder_v001.png",
+      "title": "离村送别",
+      "lines": [
+        {
+          "speaker": "村长",
+          "text": "山高路远，出门在外，多保重。"
+        },
+        {
+          "speaker": "村民",
+          "text": "少侠，一路平安！"
+        },
+        {
+          "speaker": "主角",
+          "text": "大家保重。待我走过这段江湖，再回来看看。"
+        }
+      ],
+      "integrationNote": "玩家确认离村后播放；结束或跳过交给既有章节结束入口，不能提前开放出口。"
+    }
+  ]
+}
