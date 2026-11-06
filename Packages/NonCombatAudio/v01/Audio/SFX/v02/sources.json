@@ -1,0 +1,97 @@
+{
+  "scope": "仅当前本机需求与资源盘点；未遍历家里实时Unity工程；不以旧源码证明现状",
+  "references": [
+    {
+      "file": "Standards/武侠新手村_资源生产与Unity交付标准_v1.0.md",
+      "sha256": "a05b077f9706f9dec90e7b88aa6ddc8507342d79ec68424333d7c1e53b053f08"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/主线闭环需求.md",
+      "sha256": "434d89c30b6d3ff5dd180a2392a1ee2125181404534ac935c75338b6eabe165c"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/Step01_开场接取主线与倒计时.md",
+      "sha256": "fcbf780b51dc5f42423f3c2db10616ea4a58ee2d5a4c82044a512fd7f1b108c8"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/Step02_第一场山贼战斗与任务推进.md",
+      "sha256": "76ce2bca8c490579340c4d94f73fa9791cb548b09d945f2bbc5c5bfcc8b2086b"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/Step03_第二场山贼战斗与首领入口开放.md",
+      "sha256": "770633c32c335e8a06b260fed3cf959ebe88839faac69f5a93829b4cc625202f"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/Step04_首领入口与第一场小兵战.md",
+      "sha256": "cc10e6301f37bcd0675913c46ea435d08473c7bd1c64824a5733b9241694f7aa"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/Step05_小兵二补给与首领战.md",
+      "sha256": "87852dae2d864105120d5704770f688e9a8a9fca87576ca7a356bf3d7e5cbb19"
+    },
+    {
+      "file": "Requirements/DemoMainline/v01/Step06_村长对话与离村出口开放.md",
+      "sha256": "f8300baa0d5b4558f904140d756465debfff33aabae15e9897e8eb3a4c73bbab"
+    },
+    {
+      "file": "Requirements/SaveLoad/v01/存档系统需求方案.md",
+      "sha256": "edabbd7dcfefb14e1f52b29d37e9d9f6f8664a68217f096abd7726cf25d77735"
+    },
+    {
+      "file": "Requirements/Dungeon/v01/地下城节点流程与UI需求.md",
+      "sha256": "9b33f9a3d319bb5a018347fe53afb0698b2fcc8d03abad6aa8543739afdfc939"
+    },
+    {
+      "file": "Requirements/DemoFlow/v03/补给与送别CG接入需求.md",
+      "sha256": "4217af21fecf3e281b3836182fdb0be92c738236bf6e4e1922a6acce53d0a256"
+    },
+    {
+      "file": "地图探索与移动改造需求.md",
+      "sha256": "7a43a0e532a2e660e914f9c19a3ee84a304b9ffec14361a71caafc24164d6a77"
+    },
+    {
+      "file": "Requirements/MapEventFlow/v02/地图系统改造需求方案.md",
+      "sha256": "827980d3d5ce03ee8fe84123e38918a168660e767d9ed28d8cee902c8f74f722"
+    },
+    {
+      "file": "Delivery/Inventory/v01/Documentation/需求文档.md",
+      "sha256": "72068c1f501c0d8f5a743ae67177eab97b1cc07609396a0db867b2567f622745"
+    },
+    {
+      "file": "Delivery/QuestModule/v01/Documentation/需求文档.md",
+      "sha256": "94eceab63597149d94934d1b4682e95e9a925de4d512dbbd98cc871dae3159e5"
+    },
+    {
+      "file": "Audio/SFX/v01/README.md",
+      "sha256": "084406a88897021788e4eefdbdfe1467c9278ecbf138dbe7fe37890fc54ebe24"
+    },
+    {
+      "file": "Audio/SFX/v01/Source/synthesize.cjs",
+      "sha256": "827db14a39b06adcc86f50adcf40c9724a52d86b1f2a3ad6695269e10bfb4763"
+    },
+    {
+      "file": "UI/Dialogue/v08/比例修订说明.md",
+      "sha256": "82079cf6540fb843f58f5c37c8c6e2a81a1a767da483a9e6570bb0a52894d641"
+    },
+    {
+      "file": "UI/Dialogue/v07/动效修订说明.md",
+      "sha256": "0371eb165ef8283bc2bd8ad9543ce61b0ef47e2ad231867f2c6929b1a9490275"
+    },
+    {
+      "file": "UI/QuestJournal/v04/设计说明.md",
+      "sha256": "61ee2c84738e5a4cd9633bd15382f5f1ba4768c391d0ee954256db9d21e461ad"
+    },
+    {
+      "file": "UI/MapBanner/v04/设计说明.md",
+      "sha256": "92c11f1d91a2d6fa96f634a90e119ea13830fdc12d8b20c25b16b51d10de1c66"
+    },
+    {
+      "file": "UI/SaveLoad/v01/README.md",
+      "sha256": "bac30c881066554a16d4db856c14e1b2adc9971413c72856e8133f49fa6589f1"
+    },
+    {
+      "file": "UI/Dungeon/v02/README.md",
+      "sha256": "c8a5883cccd27e58155c452a9be39e7adeecca84d29f13a0cb964c1de9d8e51f"
+    }
+  ]
+}

@@ -1,0 +1,1208 @@
+{
+  "version": 2,
+  "date": "2026-11-06",
+  "source": "deterministic Python procedural synthesis; no external samples",
+  "status": "试听/占位；数值检查不等于听感验收",
+  "engineIntegrated": false,
+  "listenedByAgent": false,
+  "spec": {
+    "sampleRate": 44100,
+    "channels": 1,
+    "bits": 16,
+    "format": "PCM little endian WAV",
+    "attackMs": 4,
+    "releaseMs": 45
+  },
+  "globalPolicy": {
+    "maxVoices": 4,
+    "criticalReserve": 1,
+    "priority": "larger wins; error/chapter > outcome > presentation > steps/paper",
+    "dedupKey": "session + operationId + semanticOutcome; retain successful operations for session",
+    "cooldownClock": "monotonic unscaled time; group-wide, not per-variant",
+    "eventSuppression": "one semantic outcome per operation; exclude combat-origin events; never replay restored state"
+  },
+  "sounds": [
+    {
+      "id": "ui_wood_click",
+      "name": "木扣·点击",
+      "file": "WAV/sfx_ui_wood_click_v002.wav",
+      "family": "wood",
+      "variantGroup": "ui_wood_click",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 5733,
+      "durationSeconds": 0.13,
+      "targetPeakDbFS": -12,
+      "suggestedVolume": 0.55,
+      "cooldownMs": 75,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "23fa11c27fd4ed42319196b20f04cd2954808d2b45bbce61430ce35fe4d80715"
+    },
+    {
+      "id": "ui_back",
+      "name": "木扣·返回",
+      "file": "WAV/sfx_ui_back_v002.wav",
+      "family": "back",
+      "variantGroup": "ui_back",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 7938,
+      "durationSeconds": 0.18,
+      "targetPeakDbFS": -12,
+      "suggestedVolume": 0.55,
+      "cooldownMs": 120,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "449058ebf15d0f616d49da8189bf76c98ef2a32721d87dbcb2510d7ead65177d"
+    },
+    {
+      "id": "ui_confirm",
+      "name": "竹扣·确认",
+      "file": "WAV/sfx_ui_confirm_v002.wav",
+      "family": "confirm",
+      "variantGroup": "ui_confirm",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 11466,
+      "durationSeconds": 0.26,
+      "targetPeakDbFS": -10,
+      "suggestedVolume": 0.6,
+      "cooldownMs": 180,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "0b271615883cbea20de6a37bc8b017d3793ee5691f7090a3a78dff7a8568de10"
+    },
+    {
+      "id": "ui_unavailable",
+      "name": "闷木·不可用／失败",
+      "file": "WAV/sfx_ui_unavailable_v002.wav",
+      "family": "deny",
+      "variantGroup": "ui_unavailable",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 10584,
+      "durationSeconds": 0.24,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.55,
+      "cooldownMs": 500,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "c71765f466e82dcac8a8c3d4f3092c7511da5c0cbb8c4a03ff42c75c4a06d6b2"
+    },
+    {
+      "id": "ui_select",
+      "name": "竹点·选择",
+      "file": "WAV/sfx_ui_select_v002.wav",
+      "family": "select",
+      "variantGroup": "ui_select",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 4410,
+      "durationSeconds": 0.1,
+      "targetPeakDbFS": -15,
+      "suggestedVolume": 0.48,
+      "cooldownMs": 90,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "73f042129faf17eb3891c5d9afc7832465ff8883390f29a519124da84fa03a8d"
+    },
+    {
+      "id": "map_paper_flip_a",
+      "name": "纸页·翻面甲",
+      "file": "WAV/sfx_map_paper_flip_a_v002.wav",
+      "family": "paper",
+      "variantGroup": "paper_flip",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 12789,
+      "durationSeconds": 0.29,
+      "targetPeakDbFS": -14,
+      "suggestedVolume": 0.45,
+      "cooldownMs": 100,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "8ceb1eb2bed0f3d869d353df349419b7924be6bd85eb1389e4eb2a387fb85086"
+    },
+    {
+      "id": "map_paper_flip_b",
+      "name": "纸页·翻面乙",
+      "file": "WAV/sfx_map_paper_flip_b_v002.wav",
+      "family": "paper",
+      "variantGroup": "paper_flip",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 14112,
+      "durationSeconds": 0.32,
+      "targetPeakDbFS": -14,
+      "suggestedVolume": 0.45,
+      "cooldownMs": 100,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "b50271ff8f1accbff8ff567df513234a64b166709ffb89ebd82b821db53b387c"
+    },
+    {
+      "id": "map_step_a",
+      "name": "土石·落步甲",
+      "file": "WAV/sfx_map_step_a_v002.wav",
+      "family": "step",
+      "variantGroup": "map_step",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 6615,
+      "durationSeconds": 0.15,
+      "targetPeakDbFS": -16,
+      "suggestedVolume": 0.45,
+      "cooldownMs": 160,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "9d183ea78588425be3665d5b616b1b8d129800b8873dd04141226289bba93ee2"
+    },
+    {
+      "id": "map_step_b",
+      "name": "土石·落步乙",
+      "file": "WAV/sfx_map_step_b_v002.wav",
+      "family": "step",
+      "variantGroup": "map_step",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 7497,
+      "durationSeconds": 0.17,
+      "targetPeakDbFS": -16,
+      "suggestedVolume": 0.45,
+      "cooldownMs": 160,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "3af73fb3c19eb08daaaea31a95ba6f73454390e6b1043f0289f6f9c83314dc16"
+    },
+    {
+      "id": "map_step_c",
+      "name": "土石·落步丙",
+      "file": "WAV/sfx_map_step_c_v002.wav",
+      "family": "step",
+      "variantGroup": "map_step",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 6174,
+      "durationSeconds": 0.14,
+      "targetPeakDbFS": -16,
+      "suggestedVolume": 0.45,
+      "cooldownMs": 160,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "5a1bdc13aaeee2c735d4f2f7f5b3c9ad9cd60eb88047339572e7619e478434b0"
+    },
+    {
+      "id": "map_revisit",
+      "name": "纸风·重访落地",
+      "file": "WAV/sfx_map_revisit_v002.wav",
+      "family": "travel",
+      "variantGroup": "map_revisit",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 18963,
+      "durationSeconds": 0.43,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.5,
+      "cooldownMs": 300,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "e8a2ff71d09797d3873f50e53cdd89f6510cb28ef0d675cc613e481bb61ac1fc"
+    },
+    {
+      "id": "event_unlock",
+      "name": "竹石·入口开放",
+      "file": "WAV/sfx_event_unlock_v002.wav",
+      "family": "unlock",
+      "variantGroup": "event_unlock",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 21168,
+      "durationSeconds": 0.48,
+      "targetPeakDbFS": -10,
+      "suggestedVolume": 0.58,
+      "cooldownMs": 700,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "2952496e7ca685821a51154d6fc1221250a9a11fae4c611973fb627858189708"
+    },
+    {
+      "id": "quest_accept",
+      "name": "卷签·任务接取",
+      "file": "WAV/sfx_quest_accept_v002.wav",
+      "family": "accept",
+      "variantGroup": "quest_accept",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 24255,
+      "durationSeconds": 0.55,
+      "targetPeakDbFS": -10,
+      "suggestedVolume": 0.6,
+      "cooldownMs": 800,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "135f06e60eca6c895e0c99a6474a87186739438372dba25c70e1e7d692950bce"
+    },
+    {
+      "id": "quest_update",
+      "name": "卷签·目标更新",
+      "file": "WAV/sfx_quest_update_v002.wav",
+      "family": "update",
+      "variantGroup": "quest_update",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 12789,
+      "durationSeconds": 0.29,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.52,
+      "cooldownMs": 700,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "4d17a4a8d121dc0adf6a82bf1cef66d8cc080fb5a7f962ab0e7c66063a6c8e06"
+    },
+    {
+      "id": "quest_complete",
+      "name": "卷签·任务完成",
+      "file": "WAV/sfx_quest_complete_v002.wav",
+      "family": "complete",
+      "variantGroup": "quest_complete",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 33957,
+      "durationSeconds": 0.77,
+      "targetPeakDbFS": -9,
+      "suggestedVolume": 0.6,
+      "cooldownMs": 1000,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "dcc4b61b6106c20756199f2ba22f8ec499d6a4b5a711f51eff7329e0217c2e69"
+    },
+    {
+      "id": "reward_coin",
+      "name": "铜钱·到账",
+      "file": "WAV/sfx_reward_coin_v002.wav",
+      "family": "coin",
+      "variantGroup": "reward_coin",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 27342,
+      "durationSeconds": 0.62,
+      "targetPeakDbFS": -11,
+      "suggestedVolume": 0.58,
+      "cooldownMs": 400,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "c895d2981c08995982eaa96291e572e2ece8f400dc6723b2fe178c3d4b6bdad4"
+    },
+    {
+      "id": "item_acquire",
+      "name": "布袋·物品获得",
+      "file": "WAV/sfx_item_acquire_v002.wav",
+      "family": "item",
+      "variantGroup": "item_acquire",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 13230,
+      "durationSeconds": 0.3,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.52,
+      "cooldownMs": 400,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "a558c251b9a8f668ab7004265d6c9408df4ef4f6aeb8aa085953cf685c8f967c"
+    },
+    {
+      "id": "chest_open",
+      "name": "木匣·开启",
+      "file": "WAV/sfx_chest_open_v002.wav",
+      "family": "chest",
+      "variantGroup": "chest_open",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 25578,
+      "durationSeconds": 0.58,
+      "targetPeakDbFS": -11,
+      "suggestedVolume": 0.58,
+      "cooldownMs": 900,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "8aab4fcc3ff4a51da2b73be78995ab5cbd5be73679bf72873315863bb12d64f5"
+    },
+    {
+      "id": "supply_restore",
+      "name": "清息·补给恢复",
+      "file": "WAV/sfx_supply_restore_v002.wav",
+      "family": "restore",
+      "variantGroup": "supply_restore",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 40131,
+      "durationSeconds": 0.91,
+      "targetPeakDbFS": -11,
+      "suggestedVolume": 0.6,
+      "cooldownMs": 1200,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "911790c3e350a21d84d734560a1995403819fad10289c2db2f188865e614025a"
+    },
+    {
+      "id": "save_success",
+      "name": "落笔·保存成功",
+      "file": "WAV/sfx_save_success_v002.wav",
+      "family": "save",
+      "variantGroup": "save_success",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 16317,
+      "durationSeconds": 0.37,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.52,
+      "cooldownMs": 900,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "85e53fc0c25458ff1fe84d70cb8eb1e1a2cdab40934584a9f36e75f4fdb13453"
+    },
+    {
+      "id": "load_success",
+      "name": "展卷·读取成功",
+      "file": "WAV/sfx_load_success_v002.wav",
+      "family": "load",
+      "variantGroup": "load_success",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 19404,
+      "durationSeconds": 0.44,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.52,
+      "cooldownMs": 900,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "c5ea0b361d8995fd32514d5583458853f7e3f01dc87809f3f44ae0ccb8f1de31"
+    },
+    {
+      "id": "dungeon_enter",
+      "name": "竹石·进入节点图",
+      "file": "WAV/sfx_dungeon_enter_v002.wav",
+      "family": "enter",
+      "variantGroup": "dungeon_enter",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 15876,
+      "durationSeconds": 0.36,
+      "targetPeakDbFS": -12,
+      "suggestedVolume": 0.55,
+      "cooldownMs": 600,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "69aa312666f5d565a978b5c796f66811b315356abb1a56a5171e7adaafa6c906"
+    },
+    {
+      "id": "dungeon_progress",
+      "name": "竹石·非战斗节点进度",
+      "file": "WAV/sfx_dungeon_progress_v002.wav",
+      "family": "progress",
+      "variantGroup": "dungeon_progress",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 15876,
+      "durationSeconds": 0.36,
+      "targetPeakDbFS": -13,
+      "suggestedVolume": 0.52,
+      "cooldownMs": 700,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "9d40a2dea764dec5e29c33fc73df6a2e33e9f140cdfbcf1135c4195d6b46abcd"
+    },
+    {
+      "id": "story_transition",
+      "name": "纸风·对白／CG转场",
+      "file": "WAV/sfx_story_transition_v002.wav",
+      "family": "transition",
+      "variantGroup": "story_transition",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 24255,
+      "durationSeconds": 0.55,
+      "targetPeakDbFS": -16,
+      "suggestedVolume": 0.48,
+      "cooldownMs": 600,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "d50009e6723f0ddbf8794d101c20e90d2d96d1722b8f2f6161ee397b51e82f8a"
+    },
+    {
+      "id": "chapter_end",
+      "name": "归卷·Demo结束",
+      "file": "WAV/sfx_chapter_end_v002.wav",
+      "family": "end",
+      "variantGroup": "chapter_end",
+      "sampleRate": 44100,
+      "channels": 1,
+      "bits": 16,
+      "frames": 52038,
+      "durationSeconds": 1.18,
+      "targetPeakDbFS": -10,
+      "suggestedVolume": 0.6,
+      "cooldownMs": 2500,
+      "maxVoices": 1,
+      "loop": false,
+      "status": "procedural_audition_placeholder",
+      "sha256": "18b6c1c757951e537ef6002d880282dd0e8a687275c399d780c88135d1324b51"
+    }
+  ],
+  "mappings": [
+    {
+      "module": "通用UI",
+      "use": "普通按钮",
+      "ids": [
+        "ui_wood_click"
+      ],
+      "trigger": "有效点击被最高层UI消费后；无业务音的开窗/标题返回入口",
+      "sharingAndSuppression": "仅无更具体反馈时使用；不接hover或每帧按住",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_wood_click_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 75,
+      "maxVoices": 1
+    },
+    {
+      "module": "通用UI",
+      "use": "返回／取消",
+      "ids": [
+        "ui_back"
+      ],
+      "trigger": "窗口实际关闭或确认框取消后",
+      "sharingAndSuppression": "Esc只由最高层消费一次；取消离村不接转场",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_back_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 120,
+      "maxVoices": 1
+    },
+    {
+      "module": "通用UI",
+      "use": "普通确认",
+      "ids": [
+        "ui_confirm"
+      ],
+      "trigger": "无异步业务结果音的确认操作被接受后",
+      "sharingAndSuppression": "存档/使用/补给/开箱/离村确认不叠此音",
+      "priority": 20,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_confirm_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 180,
+      "maxVoices": 1
+    },
+    {
+      "module": "通用UI",
+      "use": "选择／Tab／筛选",
+      "ids": [
+        "ui_select"
+      ],
+      "trigger": "选择对象或Tab真正改变一次后",
+      "sharingAndSuppression": "重复选中无声；背包/任务/存档槽/地图详情/地下城共用",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_select_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.48
+      ],
+      "cooldownMs": 90,
+      "maxVoices": 1
+    },
+    {
+      "module": "通用UI",
+      "use": "不可用反馈",
+      "ids": [
+        "ui_unavailable"
+      ],
+      "trigger": "玩家主动尝试被规则拒绝，且已有可见原因提示时",
+      "sharingAndSuppression": "禁用控件若不接收输入则无声；不得轮询失败连播",
+      "priority": 40,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_unavailable_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 500,
+      "maxVoices": 1
+    },
+    {
+      "module": "纸页",
+      "use": "任务背景／背包分页／详情翻页",
+      "ids": [
+        "map_paper_flip_a",
+        "map_paper_flip_b"
+      ],
+      "trigger": "页码真正改变、翻页动画开始时",
+      "sharingAndSuppression": "首末页拒绝不播；只播一枚；替代点击",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_map_paper_flip_a_v002.wav",
+        "WAV/sfx_map_paper_flip_b_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.45,
+        0.45
+      ],
+      "cooldownMs": 100,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "逐格移动落地",
+      "ids": [
+        "map_step_a",
+        "map_step_b",
+        "map_step_c"
+      ],
+      "trigger": "角色脚底真正落到目标格时，每格最多一次",
+      "sharingAndSuppression": "无连续步态证据，不按动画帧造连续脚步；三变体轮换避重复",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_map_step_a_v002.wav",
+        "WAV/sfx_map_step_b_v002.wav",
+        "WAV/sfx_map_step_c_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "cooldownMs": 160,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "免费重访／瞬移",
+      "ids": [
+        "map_revisit"
+      ],
+      "trigger": "权威位置已更新且目标落点准备好时",
+      "sharingAndSuppression": "替代落步；不在点击目标时提前播",
+      "priority": 20,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_map_revisit_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.5
+      ],
+      "cooldownMs": 300,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "首次揭示／大型组多米诺翻牌",
+      "ids": [
+        "map_paper_flip_a",
+        "map_paper_flip_b"
+      ],
+      "trigger": "首批可见翻面中点或揭示动画开始，二选一固定",
+      "sharingAndSuppression": "共用flip组100ms节流；每批最多3枚，跨格不每格叠响；不再造揭示完成音",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_map_paper_flip_a_v002.wav",
+        "WAV/sfx_map_paper_flip_b_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.45,
+        0.45
+      ],
+      "cooldownMs": 100,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "入口／出口／事件可用",
+      "ids": [
+        "event_unlock"
+      ],
+      "trigger": "首领入口或离村出口从锁定变可用，实际状态提交且标记首次可见时",
+      "sharingAndSuppression": "同批入口只一枚；已存在状态/读档不播；不播战斗启动/胜利",
+      "priority": 50,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_event_unlock_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.58
+      ],
+      "cooldownMs": 700,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "详情／任务定位／事件预览",
+      "ids": [
+        "ui_select"
+      ],
+      "trigger": "详情首次打开、定位成功或预览选择真实改变后",
+      "sharingAndSuppression": "只选中已有可知内容；不移动角色、不播脚步/解锁",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_select_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.48
+      ],
+      "cooldownMs": 90,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "行动点不足／不可达",
+      "ids": [
+        "ui_unavailable"
+      ],
+      "trigger": "主动移动请求被拒绝并显示原因后",
+      "sharingAndSuppression": "合并同次请求；未明确的未知格通行规则不自行定义",
+      "priority": 40,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_unavailable_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 500,
+      "maxVoices": 1
+    },
+    {
+      "module": "地图",
+      "use": "休息恢复与日期推进",
+      "ids": [
+        "supply_restore"
+      ],
+      "trigger": "休息的HP/AP/日期统一提交成功后",
+      "sharingAndSuppression": "替代确认；日期/期限UI刷新静默；不做烧抢或到期惩罚音",
+      "priority": 50,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_supply_restore_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 1200,
+      "maxVoices": 1
+    },
+    {
+      "module": "任务",
+      "use": "新主线接取",
+      "ids": [
+        "quest_accept"
+      ],
+      "trigger": "报信正常结束或跳过，首次接取与期限登记成功，通知显示时",
+      "sharingAndSuppression": "同次任务立即完成优先完成音；读档/重复回调静默",
+      "priority": 60,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_quest_accept_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 800,
+      "maxVoices": 1
+    },
+    {
+      "module": "任务",
+      "use": "非战斗目标变化",
+      "ids": [
+        "quest_update"
+      ],
+      "trigger": "对话/探索产生真实目标变更，通知显示时",
+      "sharingAndSuppression": "合并700ms内更新；完成优先；战斗结果导致的更新本包不挂音",
+      "priority": 50,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_quest_update_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.52
+      ],
+      "cooldownMs": 700,
+      "maxVoices": 1
+    },
+    {
+      "module": "任务",
+      "use": "非战斗任务完成",
+      "ids": [
+        "quest_complete"
+      ],
+      "trigger": "非战斗目标完成及自动奖励一致提交后",
+      "sharingAndSuppression": "替代同事务accept/update/coin/item；战斗导致主线完成排除，沿用原工程声音",
+      "priority": 70,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_quest_complete_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 1000,
+      "maxVoices": 1
+    },
+    {
+      "module": "任务",
+      "use": "展开／收起／筛选／定位",
+      "ids": [
+        "ui_wood_click",
+        "ui_select",
+        "ui_back"
+      ],
+      "trigger": "分组折叠/整栏收起为click；分类为select；关闭为back",
+      "sharingAndSuppression": "每操作只一项；刷新补位/读档恢复静默；本轮不做支线置顶专属音",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_wood_click_v002.wav",
+        "WAV/sfx_ui_select_v002.wav",
+        "WAV/sfx_ui_back_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55,
+        0.48,
+        0.55
+      ],
+      "cooldownMs": 120,
+      "maxVoices": 1
+    },
+    {
+      "module": "奖励",
+      "use": "铜钱到账",
+      "ids": [
+        "reward_coin"
+      ],
+      "trigger": "非战斗奖励或获得事务已提交且正增量>0",
+      "sharingAndSuppression": "同operationId只一次；混合奖励选coin；不与任务完成/宝箱同播；不接战斗结算",
+      "priority": 60,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_reward_coin_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.58
+      ],
+      "cooldownMs": 400,
+      "maxVoices": 1
+    },
+    {
+      "module": "背包",
+      "use": "物品获得",
+      "ids": [
+        "item_acquire"
+      ],
+      "trigger": "非战斗获得提交后出现正向增量提示",
+      "sharingAndSuppression": "一批多物品只一枚；混合币奖励选coin；读档/初始填充/刷新不播",
+      "priority": 50,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_item_acquire_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.52
+      ],
+      "cooldownMs": 400,
+      "maxVoices": 1
+    },
+    {
+      "module": "背包",
+      "use": "草药等恢复品使用",
+      "ids": [
+        "supply_restore"
+      ],
+      "trigger": "恢复效果与扣物都提交成功后",
+      "sharingAndSuppression": "共用补给音；满生命不扣不响恢复，主动拒绝可播deny；数量减少本身无音",
+      "priority": 60,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_supply_restore_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 1200,
+      "maxVoices": 1
+    },
+    {
+      "module": "背包",
+      "use": "装备／卸下",
+      "ids": [
+        "ui_confirm"
+      ],
+      "trigger": "仅当实际工程存在装备接口，且装备状态成功改变后",
+      "sharingAndSuppression": "无已核验运行时装备证据；暂不启用；无需额外金属声",
+      "priority": 20,
+      "status": "条件复用，待工程核对",
+      "files": [
+        "WAV/sfx_ui_confirm_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 180,
+      "maxVoices": 1
+    },
+    {
+      "module": "宝箱",
+      "use": "开启反馈",
+      "ids": [
+        "chest_open"
+      ],
+      "trigger": "已有宝箱业务成功发奖并首次切为open外观时",
+      "sharingAndSuppression": "单次开启用chest，抑制同事务coin/item；已开重访无声；不新增宝箱任务",
+      "priority": 60,
+      "status": "已生成，现有内容条件接入",
+      "files": [
+        "WAV/sfx_chest_open_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.58
+      ],
+      "cooldownMs": 900,
+      "maxVoices": 1
+    },
+    {
+      "module": "补给",
+      "use": "首领关卡补给",
+      "ids": [
+        "supply_restore"
+      ],
+      "trigger": "补给CG正常完成或明确跳过，治疗和领取状态一起提交成功后",
+      "sharingAndSuppression": "重复回调/重进/首领重试静默；不因打开CG提前播；替代节点进度音",
+      "priority": 70,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_supply_restore_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 1200,
+      "maxVoices": 1
+    },
+    {
+      "module": "存读档",
+      "use": "手动保存／覆盖成功",
+      "ids": [
+        "save_success"
+      ],
+      "trigger": "存档服务确认正式文件替换及校验成功，成功提示显示时",
+      "sharingAndSuppression": "确认覆盖按钮不播confirm；不是写临时文件即成功；连点合并",
+      "priority": 60,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_save_success_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.52
+      ],
+      "cooldownMs": 900,
+      "maxVoices": 1
+    },
+    {
+      "module": "存读档",
+      "use": "自动保存成功",
+      "ids": [
+        "save_success"
+      ],
+      "trigger": "仅需要声音辅助时，在事件稳定后写入成功提示时",
+      "sharingAndSuppression": "默认静默；若开启音量0.25；与补给/任务/剧情音冲突时省略",
+      "priority": 5,
+      "status": "已生成，默认不启用",
+      "files": [
+        "WAV/sfx_save_success_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.52
+      ],
+      "cooldownMs": 900,
+      "maxVoices": 1
+    },
+    {
+      "module": "存读档",
+      "use": "读取成功",
+      "ids": [
+        "load_success"
+      ],
+      "trigger": "解析/校验/恢复全成功、地图就绪且存档窗口关闭后",
+      "sharingAndSuppression": "只播load；恢复奖励/揭示/任务/落步/入口提示全部静默",
+      "priority": 70,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_load_success_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.52
+      ],
+      "cooldownMs": 900,
+      "maxVoices": 1
+    },
+    {
+      "module": "存读档",
+      "use": "保存／读取失败",
+      "ids": [
+        "ui_unavailable"
+      ],
+      "trigger": "服务返回失败并显示原因/重试提示时",
+      "sharingAndSuppression": "共享失败音；同次尝试一枚；自动保存失败最多10秒一次，成功前不播成功音",
+      "priority": 80,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_unavailable_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 500,
+      "maxVoices": 1
+    },
+    {
+      "module": "地下城",
+      "use": "打开／重进节点图",
+      "ids": [
+        "dungeon_enter"
+      ],
+      "trigger": "节点数据加载完成且图真正首次显示时",
+      "sharingAndSuppression": "替代普通开窗点击；状态恢复不播节点完成；非战斗界面声",
+      "priority": 20,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_dungeon_enter_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 600,
+      "maxVoices": 1
+    },
+    {
+      "module": "地下城",
+      "use": "节点选择",
+      "ids": [
+        "ui_select"
+      ],
+      "trigger": "可进入的非战斗节点请求被接受并锁定时",
+      "sharingAndSuppression": "直接执行无二次按钮；若立即转场则省select；战斗节点点击本包不挂音",
+      "priority": 20,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_select_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.48
+      ],
+      "cooldownMs": 90,
+      "maxVoices": 1
+    },
+    {
+      "module": "地下城",
+      "use": "非战斗节点进度",
+      "ids": [
+        "dungeon_progress"
+      ],
+      "trigger": "对话/CG等非战斗节点提交完成并回节点图稳定时",
+      "sharingAndSuppression": "补给/宝箱/章节有专属音则抑制；不接战斗节点√或地下城战斗胜利",
+      "priority": 40,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_dungeon_progress_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.52
+      ],
+      "cooldownMs": 700,
+      "maxVoices": 1
+    },
+    {
+      "module": "地下城",
+      "use": "不可进入／已完成节点",
+      "ids": [
+        "ui_unavailable"
+      ],
+      "trigger": "主动点击并出现明确拒绝提示时",
+      "sharingAndSuppression": "若现有UI为静默忽略则保持无声；不每次刷新红边播音",
+      "priority": 30,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_unavailable_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55
+      ],
+      "cooldownMs": 500,
+      "maxVoices": 1
+    },
+    {
+      "module": "对白／CG",
+      "use": "打开／换段转场",
+      "ids": [
+        "story_transition"
+      ],
+      "trigger": "对白或CG实际开始可见转场时，一段一枚",
+      "sharingAndSuppression": "补给/送别共用；非每句/每字；跳过不追播未见内容；视频自带音轨需避让",
+      "priority": 20,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_story_transition_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.48
+      ],
+      "cooldownMs": 600,
+      "maxVoices": 1
+    },
+    {
+      "module": "对白／CG",
+      "use": "手动下一句／选择",
+      "ids": [
+        "ui_select"
+      ],
+      "trigger": "玩家主动推进至下一句或确认已有对白选项时",
+      "sharingAndSuppression": "低音量0.30，自动推进静默；段落切换有transition则省select",
+      "priority": 10,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_select_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.48
+      ],
+      "cooldownMs": 90,
+      "maxVoices": 1
+    },
+    {
+      "module": "对白／CG",
+      "use": "跳过确认／异常退出",
+      "ids": [
+        "ui_back",
+        "ui_unavailable"
+      ],
+      "trigger": "取消跳过为back；资源失败提示为deny；正常跳过执行统一业务结果音",
+      "sharingAndSuppression": "不将关闭窗口视为完成；正常跳过不补播整段声音",
+      "priority": 30,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_ui_back_v002.wav",
+        "WAV/sfx_ui_unavailable_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.55,
+        0.55
+      ],
+      "cooldownMs": 500,
+      "maxVoices": 1
+    },
+    {
+      "module": "章节",
+      "use": "离村确认与送别",
+      "ids": [
+        "story_transition"
+      ],
+      "trigger": "确认离村通过前置检查且送别画面已可见时",
+      "sharingAndSuppression": "确认按钮不另播confirm；取消仅back；出口取消不每帧重触发",
+      "priority": 30,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_story_transition_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.48
+      ],
+      "cooldownMs": 600,
+      "maxVoices": 1
+    },
+    {
+      "module": "章节",
+      "use": "Demo结束",
+      "ids": [
+        "chapter_end"
+      ],
+      "trigger": "送别完成或明确跳过后，章节完成提交且结束页首次显示时",
+      "sharingAndSuppression": "仅章节结束，非战斗胜利声；同chapter一次，读档恢复结束页静默；返回标题用click",
+      "priority": 80,
+      "status": "已生成",
+      "files": [
+        "WAV/sfx_chapter_end_v002.wav"
+      ],
+      "suggestedVolume": [
+        0.6
+      ],
+      "cooldownMs": 2500,
+      "maxVoices": 1
+    }
+  ]
+}

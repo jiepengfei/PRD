@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-06",
+  "audioVersion": "v02",
+  "requirementVersion": "v01",
+  "wavCount": 25,
+  "mappingCount": 36,
+  "originalRequirement": "Requirements/Audio/v01/非战斗音效完整接入需求.md",
+  "originalRequirementSHA256": "8a035ab77e38854de317682db57f0a9f2ec38fa8d3b8c24d7d68e99d58992e03",
+  "packagedRequirementSHA256": "61d920f9a5164747a913a441ec691a7e084a2a6b1181523810e815aaae261d65",
+  "change": "only added delivery note and replaced unbundled reference hyperlinks with project path descriptions",
+  "unbundledProjectReferences": [
+    "Delivery/Inventory/v01/Documentation/需求文档.md",
+    "Delivery/QuestModule/v01/Documentation/需求文档.md",
+    "Requirements/DemoFlow/v03/补给与送别CG接入需求.md",
+    "Requirements/DemoMainline/v01/主线闭环需求.md",
+    "Requirements/Dungeon/v01/地下城节点流程与UI需求.md",
+    "Requirements/MapEventFlow/v02/地图系统改造需求方案.md",
+    "Requirements/SaveLoad/v01/存档系统需求方案.md",
+    "地图探索与移动改造需求.md"
+  ],
+  "engineIntegrated": false,
+  "listenedByAgent": false
+}

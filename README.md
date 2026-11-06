@@ -30,3 +30,5 @@
 
 
 - [补给与送别 CG 接入需求及资源](Packages/DemoSupplyFarewell/README.md)：仅两段图片和对白，串通正常结尾；不含回忆、烧抢或支线，本次只上传。
+
+- [非战斗音效完整需求与资源](Packages/NonCombatAudio/README.md)：25枚WAV、36条适配与完整实施验收要求；2026-11-06用户授权通知家里电脑接入，排除战斗音。
