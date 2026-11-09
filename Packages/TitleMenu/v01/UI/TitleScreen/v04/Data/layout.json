@@ -1,0 +1,40 @@
+{
+  "referenceWidth": 1672,
+  "referenceHeight": 941,
+  "coordinateOrigin": "top-left",
+  "background": {
+    "width": 1671,
+    "height": 941,
+    "preserveAspect": true
+  },
+  "logo": {
+    "x": 50,
+    "y": 60,
+    "width": 620,
+    "height": 300,
+    "preserveAspect": true
+  },
+  "menu": {
+    "centerX": 280,
+    "firstCenterY": 429,
+    "rowGap": 81,
+    "fontFamily": "Reuse project Chinese font, serif/calligraphy preferred",
+    "referenceFontSize": 40,
+    "items": [
+      "开始游戏",
+      "继续游戏",
+      "读取存档",
+      "设置",
+      "退出游戏"
+    ],
+    "selectedBrush": {
+      "centerX": 280,
+      "centerY": 429,
+      "width": 400,
+      "height": 88
+    },
+    "textColor": "#232420",
+    "selectedTextColor": "#F3F0E7"
+  },
+  "unityTested": false
+}

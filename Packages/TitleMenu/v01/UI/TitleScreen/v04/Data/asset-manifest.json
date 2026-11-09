@@ -1,0 +1,32 @@
+{
+  "assets": [
+    {
+      "file": "Assets/title-background.png",
+      "width": 1671,
+      "height": 941,
+      "hasAlpha": false,
+      "alphaRange": null
+    },
+    {
+      "file": "Assets/title-logo.png",
+      "width": 620,
+      "height": 300,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "Assets/menu-selected-brush.png",
+      "width": 676,
+      "height": 171,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ]
+    }
+  ],
+  "unityTested": false
+}

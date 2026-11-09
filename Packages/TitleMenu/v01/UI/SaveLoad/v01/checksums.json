@@ -1,0 +1,132 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 2209,
+    "sha256": "bac30c881066554a16d4db856c14e1b2adc9971413c72856e8133f49fa6589f1"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/manifest_save_load.json",
+    "bytes": 10830,
+    "sha256": "348ffc66772a7827f0bbeb72e53dc095be94e988dc1333bfd6f43d77526bc923"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Backgrounds/ui_save_background_v001.png",
+    "bytes": 347472,
+    "sha256": "007f059443b9f0d5605c1f57dd3ee4061f58beb1af5189d89516360906cfb279"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Backgrounds/ui_save_modal_scrim_v001.png",
+    "bytes": 718,
+    "sha256": "4929bff901529da419e149850dbd9c1cdad27186220c906e59a992c329f9ba49"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Buttons/ui_save_button_primary_v001.png",
+    "bytes": 1013,
+    "sha256": "5d1a682d48c2b59dbfca6e5f956e8169e92d0bd95a0f015398b9e2af9c9a1f8a"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Buttons/ui_save_button_secondary_v001.png",
+    "bytes": 818,
+    "sha256": "66eb0c47f6b756b9aca7eb72a1868dda6e87370d0b9cc28f84ad6d8c7ac11f65"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Decorations/ui_save_mountains_v001.png",
+    "bytes": 7082,
+    "sha256": "b83cbd5613b3d96ff1cc94bc1d06bf950525b02b97eb14c2f3eede4bd8393801"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Decorations/ui_save_tab_underline_v001.png",
+    "bytes": 339,
+    "sha256": "2b69dc0da1ea53ad5069ee925ba287f0a1cccd60dca40cebdf6bed5a219b88ae"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Decorations/ui_save_title_seal_frame_v001.png",
+    "bytes": 169,
+    "sha256": "2b3a9d33077f2ac51422e693236c7b0df5c8d26ac2a47863227cba1a1fb6e0c5"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Icons/ui_save_return_circle_v001.png",
+    "bytes": 1784,
+    "sha256": "5429cdb9f208fca4c4791d9c24f133e2a54ea60f8787f51bc3c86b62abe67573"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Icons/ui_save_return_cross_v001.png",
+    "bytes": 864,
+    "sha256": "f7356d81e7daa5dd05eb98c0529241176d3c92fb38f7ff61c050f539e231d879"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Panels/ui_save_confirm_paper_v001.png",
+    "bytes": 2059,
+    "sha256": "159a3bb7dfd70e2f1de0a236181002b328e4304b29fc1fbbab1d70805788b68a"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Panels/ui_save_detail_paper_v001.png",
+    "bytes": 3853,
+    "sha256": "91f36d2983c77b2f5c336863b1f1baaa571eba5bb9fe8c84960dcc332c5cb847"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Panels/ui_save_slot_empty_v001.png",
+    "bytes": 42821,
+    "sha256": "e5dd025b98c98db202a659ad8478eb9dc1e3bfe9554890953b23e57cb759f2c3"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Panels/ui_save_slot_normal_v001.png",
+    "bytes": 44185,
+    "sha256": "b283fb975512ac00bc4c5bb77ab8f59becedda4c5b68904b8620c68892e3bf5f"
+  },
+  {
+    "file": "Assets/WuxiaVillage/Art/UI/SaveLoad/Panels/ui_save_slot_selected_v001.png",
+    "bytes": 38932,
+    "sha256": "1ab817e5dbacea1339da831baa4f76d928aa5465d17368da4d9a138e950d2e56"
+  },
+  {
+    "file": "Data/export_checks.json",
+    "bytes": 306,
+    "sha256": "b6a6f4c63fd8c607075659ae905f3c423ae9a71a983082b836014c7e79c7c384"
+  },
+  {
+    "file": "Data/save_load_layout.json",
+    "bytes": 3051,
+    "sha256": "272c9604b7ee6066f47311541e11bdf1f9fd762279b5a10ad0fe06256dc2ca72"
+  },
+  {
+    "file": "Documentation/素材清单.md",
+    "bytes": 1892,
+    "sha256": "bb5028009d66108720e19de41efc92905ced3af13c4365aa9f97e20083a8be73"
+  },
+  {
+    "file": "Documentation/资源导入与布局.md",
+    "bytes": 4734,
+    "sha256": "e1349674b3c9f5828b3ead9bb4b8fc5172b6181358c5894e02be7c617c6dc7ea"
+  },
+  {
+    "file": "Reference/assets-contact-sheet.png",
+    "bytes": 136944,
+    "sha256": "734c8cc81d41523a4bfcc77be106b58c06f82f0bad5546a2cdf26251f131d324"
+  },
+  {
+    "file": "Reference/save-load-approved.png",
+    "bytes": 590831,
+    "sha256": "1231ecdd84cd6e6ed99934ddb7231fcfde0546b95c649592a9a11b3e01d1418a"
+  },
+  {
+    "file": "Reference/save-load-confirm.png",
+    "bytes": 32552,
+    "sha256": "2057c2182378358dcfb4c53f0b55ff3b8d2ab7608f42bee7d0a141b27ac8bf46"
+  },
+  {
+    "file": "Reference/save-load-narrow.png",
+    "bytes": 456737,
+    "sha256": "452b4e8b462837d876741bf0df9e30024e92263418f55839d884a199a35f8338"
+  },
+  {
+    "file": "Source/export-save-ui.cjs",
+    "bytes": 15233,
+    "sha256": "98daee6a4cf5cd518b1787240c2fb38cbd771e7466efd1e948ee1371886a43a9"
+  },
+  {
+    "file": "Source/save-load-approved.html",
+    "bytes": 32293,
+    "sha256": "631d94a38768e714acfaa35244e11b264e0cbd69a72212f8c283ffef50b8a982"
+  }
+]

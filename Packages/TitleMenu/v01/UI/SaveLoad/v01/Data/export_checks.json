@@ -1,0 +1,14 @@
+{
+  "assetCount": 14,
+  "syntaxAndRendering": "passed",
+  "runtimeErrors": [],
+  "previewInteractions": [
+    "slot selection",
+    "confirmation cancel",
+    "empty-slot preview save",
+    "auto-slot manual overwrite disabled"
+  ],
+  "narrowWidth": 360,
+  "narrowOverflow": false,
+  "unityTested": false
+}

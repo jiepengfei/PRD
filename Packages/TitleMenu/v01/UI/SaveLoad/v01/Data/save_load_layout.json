@@ -1,0 +1,137 @@
+{
+  "referenceWidth": 850,
+  "referenceHeight": 751.75,
+  "coordinateOrigin": "top-left",
+  "exportScale": 2,
+  "appearance": "approved light theme",
+  "components": {
+    "title": {
+      "x": 32,
+      "y": 46.59,
+      "width": 170,
+      "height": 45
+    },
+    "subtitle": {
+      "x": 32,
+      "y": 98.59,
+      "width": 170,
+      "height": 19.8
+    },
+    "returnButton": {
+      "x": 784,
+      "y": 49.09,
+      "width": 40,
+      "height": 40
+    },
+    "modeTabs": {
+      "x": 32,
+      "y": 148,
+      "width": 786,
+      "height": 37.09
+    },
+    "slotList": {
+      "x": 32,
+      "y": 210.09,
+      "width": 337.86,
+      "height": 402.56
+    },
+    "details": {
+      "x": 393.86,
+      "y": 210.09,
+      "width": 424.14,
+      "height": 402.56
+    },
+    "primaryButton": {
+      "x": 688,
+      "y": 655.66,
+      "width": 130,
+      "height": 47.09
+    },
+    "slots": [
+      {
+        "logicalSlotIndex": 3,
+        "x": 32,
+        "y": 210.09,
+        "width": 337.86,
+        "height": 85.64
+      },
+      {
+        "logicalSlotIndex": 0,
+        "x": 32,
+        "y": 325.73,
+        "width": 337.86,
+        "height": 85.64
+      },
+      {
+        "logicalSlotIndex": 1,
+        "x": 32,
+        "y": 426.38,
+        "width": 337.86,
+        "height": 85.64
+      },
+      {
+        "logicalSlotIndex": 2,
+        "x": 32,
+        "y": 527.02,
+        "width": 337.86,
+        "height": 85.64
+      }
+    ]
+  },
+  "textStyles": {
+    ".save-title": {
+      "fontSize": "30px",
+      "lineHeight": "45px",
+      "fontFamily": "\"Songti SC\", SimSun, serif",
+      "color": "rgb(46, 62, 53)"
+    },
+    ".slot-name": {
+      "fontSize": "17px",
+      "lineHeight": "25.5px",
+      "fontFamily": "\"Songti SC\", SimSun, serif",
+      "color": "rgb(46, 62, 53)"
+    },
+    ".slot-note": {
+      "fontSize": "11px",
+      "lineHeight": "18.15px",
+      "fontFamily": "\"Microsoft YaHei\", \"PingFang SC\", sans-serif",
+      "color": "rgb(101, 116, 103)"
+    },
+    ".detail-heading": {
+      "fontSize": "27px",
+      "lineHeight": "40.5px",
+      "fontFamily": "\"Songti SC\", SimSun, serif",
+      "color": "rgb(46, 62, 53)"
+    },
+    ".detail-description": {
+      "fontSize": "13px",
+      "lineHeight": "24.7px",
+      "fontFamily": "\"Microsoft YaHei\", \"PingFang SC\", sans-serif",
+      "color": "rgb(101, 116, 103)"
+    },
+    ".primary-action": {
+      "fontSize": "14px",
+      "lineHeight": "23.1px",
+      "fontFamily": "\"Songti SC\", SimSun, serif",
+      "color": "rgb(250, 249, 240)"
+    }
+  },
+  "returnTitleCenterDifference": 0,
+  "confirmation": {
+    "width": 370,
+    "height": 220.28125,
+    "primaryButton": {
+      "width": 128,
+      "height": 47.09375
+    },
+    "secondaryButton": {
+      "width": 78,
+      "height": 47.09375
+    }
+  },
+  "notes": [
+    "All text is separate from production sprites.",
+    "Automatic slot appears first; current slot count is a layout example, not approved save-slot requirements.",
+    "Do not use these preview interactions as Unity save/load code."
+  ]
+}

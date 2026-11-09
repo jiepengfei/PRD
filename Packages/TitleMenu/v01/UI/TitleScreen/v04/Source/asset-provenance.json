@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-09",
+  "backgroundTool": "built-in imagegen",
+  "backgroundPrompt": "Asset extraction edit for the approved original wuxia title screen. Create the CLEAN BACKGROUND PLATE only. Remove ALL lettering from the image: the 侠客行 calligraphy, small red seal, every menu label, and the dark horizontal selection brush behind 开始游戏. Fill those removed areas with matching warm blank xuan paper and the subtle existing landscape where appropriate. Preserve exactly the rest of the approved image: 16:9 framing, sparse ink mountains, distant tiny village and path, top-right pine, foreground cliff and the extremely simplified blue-gray brush-sketch swordsman standing on the right. Do not add texture, details, characters, symbols or ornaments. Do not restyle or recompose the art. No text, no watermark, no buttons, no UI, no frame. This is a production background layer under independently rendered UI.",
+  "sourceConcept": "UI/TitleScreen/v03/Concepts/title_xiakexing_sketch_v003.png",
+  "backgroundOutput": "Assets/title-background.png",
+  "logoMethod": "Deterministic foreground/alpha extraction from approved concept, preserving source placement",
+  "brushSource": "UI/SaveLoad/v01/Assets/WuxiaVillage/Art/UI/SaveLoad/Panels/ui_save_slot_selected_v001.png",
+  "status": "assets prepared, not imported or verified in Unity"
+}
