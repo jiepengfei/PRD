@@ -1,0 +1,89 @@
+{
+  "referenceResolution": [
+    1672,
+    941
+  ],
+  "coordinates": "top-left; pixels; scale with safe area",
+  "panel": [
+    530,
+    32,
+    608,
+    878
+  ],
+  "titleVisibleBounds": [
+    630,
+    74,
+    420,
+    132
+  ],
+  "rewardHeaderCenter": [
+    836,
+    249
+  ],
+  "grid": {
+    "origin": [
+      600,
+      320
+    ],
+    "columns": 4,
+    "cell": [
+      96,
+      96
+    ],
+    "spacing": [
+      29,
+      33
+    ],
+    "visibleRows": 2
+  },
+  "victoryConfirm": [
+    759,
+    817,
+    154,
+    49
+  ],
+  "defeatReturn": [
+    660,
+    817,
+    157,
+    49
+  ],
+  "defeatRetry": [
+    855,
+    817,
+    157,
+    49
+  ],
+  "defeatIllustrationVisibleBounds": [
+    630,
+    276,
+    416,
+    199
+  ],
+  "defeatCaptionCenter": [
+    836,
+    528
+  ],
+  "tooltipExample": [
+    1152,
+    282,
+    324,
+    236
+  ],
+  "tooltipPadding": 24,
+  "tooltipViewportMargin": 16,
+  "hover": {
+    "borderColor": "#BC3C22",
+    "borderThickness": 2,
+    "delayMs": 150,
+    "raycastTarget": false
+  },
+  "colors": {
+    "text": "#3C3026",
+    "muted": "#796852",
+    "primary": "#B7432D",
+    "titleDefeat": "#3C4D60",
+    "paper": "#F3E8CB"
+  },
+  "note": "坐标对照定稿可见内容。透明图有留白，按manifest alphaBounds对齐可见主体；勿按原画布直接缩成标题尺寸。"
+}

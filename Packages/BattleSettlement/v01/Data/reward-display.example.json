@@ -1,0 +1,26 @@
+{
+  "sampleOnly": true,
+  "note": "仅演示显示结构，不是工程字段或掉落表；心得数量不代表经验数值。",
+  "rewards": [
+    {
+      "displayName": "铜钱",
+      "quantity": 30,
+      "icon": "item_coin"
+    },
+    {
+      "displayName": "止血散",
+      "quantity": 1,
+      "icon": "item_medicine"
+    },
+    {
+      "displayName": "心得",
+      "quantity": 1,
+      "icon": "item_xinde",
+      "tooltip": {
+        "type": "消耗品",
+        "effect": "使用后可获得经验",
+        "description": "修行感悟，助益精进。"
+      }
+    }
+  ]
+}

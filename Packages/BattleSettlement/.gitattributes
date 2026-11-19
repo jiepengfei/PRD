@@ -1,0 +1,2 @@
+# Preserve exact file bytes so packaged SHA256 checks also pass after checkout on Windows.
+* -text

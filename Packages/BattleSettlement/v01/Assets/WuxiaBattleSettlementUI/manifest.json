@@ -1,0 +1,747 @@
+{
+  "version": 1,
+  "referenceResolution": [
+    1672,
+    941
+  ],
+  "borderOrder": "left,bottom,right,top",
+  "note": "独立美术导入清单，不是运行时奖励配置；示意物品不新增游戏内容。",
+  "assets": [
+    {
+      "id": "title_victory",
+      "file": "Sprites/Titles/title_victory.png",
+      "width": 1774,
+      "height": 887,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "胜利朱红暖金标题，含笔触装饰",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "source": "exec-817b454b-4ff9-438a-93cd-20d8ab14af19.png",
+      "sha256": "0c566080e5a0664d59a2feb0469b49537506e0c5a56390ea3e5eef8b22a061e0"
+    },
+    {
+      "id": "title_defeat",
+      "file": "Sprites/Titles/title_defeat.png",
+      "width": 1774,
+      "height": 887,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "失败冷灰墨标题，含笔触装饰",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        35,
+        45,
+        1741,
+        887
+      ],
+      "source": "exec-4e7593e3-bfac-4314-bfa8-d51d5740cf4f.png",
+      "sha256": "5d7c6961b67c4012eed9c3de7e21a29d204b8cfcc8b72516376f144816047079"
+    },
+    {
+      "id": "defeat_sword",
+      "file": "Sprites/Illustrations/defeat_sword.png",
+      "width": 1774,
+      "height": 887,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "失败页归剑插画",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        23,
+        19,
+        1750,
+        869
+      ],
+      "source": "exec-f4ea59b3-e540-496a-ad42-83f5fcd0f629.png",
+      "sha256": "84fcfa5d92fb8480eea4e347e4b6b964ff3f682cbdbf827e3b15db5f5a3d9b1a"
+    },
+    {
+      "id": "item_xinde",
+      "file": "Sprites/Items/item_xinde.png",
+      "width": 1448,
+      "height": 1086,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "心得经验药独立图标；映射实际物品ID",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        369,
+        104,
+        1337,
+        907
+      ],
+      "source": "exec-b19d7f2a-44df-4d9f-a030-cd3864ae3d40.png",
+      "sha256": "fff50ffb13caca43fce4affc6239051f6160def8be598f64b461d837f6437047"
+    },
+    {
+      "id": "item_medicine",
+      "file": "Sprites/Items/item_medicine.png",
+      "width": 1312,
+      "height": 1199,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "止血散独立图标；映射实际物品ID",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        49,
+        29,
+        1236,
+        1175
+      ],
+      "source": "exec-efb45ae9-ed35-4096-b048-939b2ed6910e.png",
+      "sha256": "5b7e12b247dcd24b8c29868636068a6ff3548f65442447782c2dc8737f8edd57"
+    },
+    {
+      "id": "panel_paper_textured",
+      "file": "Sprites/Panels/panel_paper_textured.png",
+      "width": 1045,
+      "height": 1506,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "按定稿生成的无文字暖纸主面板；Simple等比缩放并按alphaBounds对齐",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1044,
+        1506
+      ],
+      "source": "exec-b95d97e3-87af-4bb3-95ac-c5124daa105d.png",
+      "sha256": "ff171380ebbd31793103fc799743b2ab17dddae92680963fe43f3a39f940bc98"
+    },
+    {
+      "id": "panel_paper",
+      "file": "Sprites/Panels/panel_paper.png",
+      "width": 440,
+      "height": 970,
+      "border": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "复用项目浅暖纸底；主面板和Tooltip均可使用",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        440,
+        970
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Panels\\panel_paper.png",
+      "sha256": "a8b740dcf44c89ce21d0bd19d1c6fdbcf78881b744caa49ac628b75c6fc039bd"
+    },
+    {
+      "id": "button_primary_normal",
+      "file": "Sprites/Buttons/button_primary_normal.png",
+      "width": 384,
+      "height": 59,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "primary按钮normal状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        383,
+        58
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_primary_normal.png",
+      "sha256": "78ae95c16c42a2da8bd6a3a6bc569bf0be41be26954b3690f171e4e5c947e0a3"
+    },
+    {
+      "id": "button_primary_hover",
+      "file": "Sprites/Buttons/button_primary_hover.png",
+      "width": 384,
+      "height": 59,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "primary按钮hover状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        383,
+        58
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_primary_hover.png",
+      "sha256": "345bf2775c04e0a40bb9e9918f111c543caa56e7238a1b1bac405f79bc8a55c3"
+    },
+    {
+      "id": "button_primary_pressed",
+      "file": "Sprites/Buttons/button_primary_pressed.png",
+      "width": 384,
+      "height": 59,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "primary按钮pressed状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        383,
+        58
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_primary_pressed.png",
+      "sha256": "df6b7d9752fbfe4922e0029eff3cc9ccf7b7f38e0ce1ff9b1e87f59bca58abdc"
+    },
+    {
+      "id": "button_primary_disabled",
+      "file": "Sprites/Buttons/button_primary_disabled.png",
+      "width": 384,
+      "height": 59,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "primary按钮disabled状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        383,
+        58
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_primary_disabled.png",
+      "sha256": "08a793a34067117797b0f8ef08775766a0c939cff3729c88d40c0023eed34710"
+    },
+    {
+      "id": "button_secondary_normal",
+      "file": "Sprites/Buttons/button_secondary_normal.png",
+      "width": 384,
+      "height": 48,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "secondary按钮normal状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        233
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        384,
+        48
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_secondary_normal.png",
+      "sha256": "4a9b167d606af1fed820a41d3ace2ecf1ad03474bfbf141cafd3bc71f0850e17"
+    },
+    {
+      "id": "button_secondary_hover",
+      "file": "Sprites/Buttons/button_secondary_hover.png",
+      "width": 384,
+      "height": 48,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "secondary按钮hover状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        384,
+        48
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_secondary_hover.png",
+      "sha256": "146409a7fb388aa21720e73012c984a32dbffb6159ca1029907c688db3d1c184"
+    },
+    {
+      "id": "button_secondary_pressed",
+      "file": "Sprites/Buttons/button_secondary_pressed.png",
+      "width": 384,
+      "height": 48,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "secondary按钮pressed状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        384,
+        48
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_secondary_pressed.png",
+      "sha256": "6ded6a19a5e8f7995b18efc03bb633942c836901970756f876b1f0a0ab867792"
+    },
+    {
+      "id": "button_secondary_disabled",
+      "file": "Sprites/Buttons/button_secondary_disabled.png",
+      "width": 384,
+      "height": 48,
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "secondary按钮disabled状态；文字独立渲染",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        233
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        384,
+        48
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Buttons\\button_secondary_disabled.png",
+      "sha256": "05aa3f382aa7c3519f56a89b4d176b2efa97ed1f8d17bc7527ccf2c481f89b19"
+    },
+    {
+      "id": "divider_subtle",
+      "file": "Sprites/Dividers/divider_subtle.png",
+      "width": 384,
+      "height": 1,
+      "border": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "Tooltip细分隔线",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        384,
+        1
+      ],
+      "source": "UI\\DetailCardArt\\v01\\Assets\\WuxiaEventDetailUI\\Sprites\\Dividers\\divider_subtle.png",
+      "sha256": "4aaa023f39d206f1556bf7c3fa71442b0a52f2616b22f91e0cebc05339188ae5"
+    },
+    {
+      "id": "ui_inventory_slot_normal",
+      "file": "Sprites/Slots/ui_inventory_slot_normal.png",
+      "width": 96,
+      "height": 96,
+      "border": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "复用物品格；悬停另叠朱红边框",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        64,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "source": "Delivery\\Inventory\\v01\\Assets\\WuxiaVillage\\Art\\UI\\Inventory\\Slots\\ui_inventory_slot_normal.png",
+      "sha256": "fe94d26ac80e51cf125af86677b37c36be86077d37c733b6b685b147e3b5e3fa"
+    },
+    {
+      "id": "ui_inventory_slot_hover",
+      "file": "Sprites/Slots/ui_inventory_slot_hover.png",
+      "width": 96,
+      "height": 96,
+      "border": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "复用物品格；悬停另叠朱红边框",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        64,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        96,
+        96
+      ],
+      "source": "Delivery\\Inventory\\v01\\Assets\\WuxiaVillage\\Art\\UI\\Inventory\\Slots\\ui_inventory_slot_hover.png",
+      "sha256": "c905306bf99089af5fafd03413bb6ac70f008a629f9669a0d3c877fdbc5d66f8"
+    },
+    {
+      "id": "ui_inventory_selection_frame",
+      "file": "Sprites/Slots/ui_inventory_selection_frame.png",
+      "width": 96,
+      "height": 96,
+      "border": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Sliced",
+      "usage": "复用物品格；悬停另叠朱红边框",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        1,
+        1,
+        95,
+        95
+      ],
+      "source": "Delivery\\Inventory\\v01\\Assets\\WuxiaVillage\\Art\\UI\\Inventory\\Slots\\ui_inventory_selection_frame.png",
+      "sha256": "49b236b015639199040964ca761aec8a87cf09de217bd613c6a74e09f389854c"
+    },
+    {
+      "id": "item_coin",
+      "file": "Sprites/Items/item_coin.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "铜钱图标；绑定真实货币奖励",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        16,
+        30,
+        112,
+        99
+      ],
+      "source": "Delivery\\Inventory\\v01\\Assets\\WuxiaVillage\\Art\\UI\\Inventory\\Icons\\ui_inventory_coin.png",
+      "sha256": "9e9cf096ae0703ed42b1d86bc75e36e94d2c10ab35b52c7e00bd660406454d70"
+    },
+    {
+      "id": "item_herb_001",
+      "file": "Sprites/SampleItems/item_herb_001.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "仅布局示意；优先绑定工程正式物品图标",
+      "sampleOnly": true,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        16,
+        18,
+        112,
+        111
+      ],
+      "source": "Delivery\\Inventory\\v01\\Assets\\WuxiaVillage\\Art\\UI\\Inventory\\SampleItems\\item_herb_001.png",
+      "sha256": "f695bdb5495b52b6ab9e86165f4f80ca9bbdbfdc3270be2b2486f86fc2fc2399"
+    },
+    {
+      "id": "item_quest_book_001",
+      "file": "Sprites/SampleItems/item_quest_book_001.png",
+      "width": 128,
+      "height": 128,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "仅布局示意；优先绑定工程正式物品图标",
+      "sampleOnly": true,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBounds": [
+        18,
+        16,
+        111,
+        112
+      ],
+      "source": "Delivery\\Inventory\\v01\\Assets\\WuxiaVillage\\Art\\UI\\Inventory\\SampleItems\\item_quest_book_001.png",
+      "sha256": "3eeab555bcaeed956cbc38c6bb42796e6f563d77804bcd058ffec7bff0cd8d87"
+    },
+    {
+      "id": "mountain_pass_dusk",
+      "file": "Sprites/Backgrounds/mountain_pass_dusk.png",
+      "width": 1672,
+      "height": 941,
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "imageType": "Simple",
+      "usage": "复用山道暮色背景；工程已有时引用既有资源",
+      "sampleOnly": false,
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "alphaBounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "source": "Delivery\\BattlePage\\v02\\Art\\BattleScene\\Background\\mountain_pass_dusk.png",
+      "sha256": "0e0df9112faa99caf1eb5df6e26e05d38f361cde66abae0b0fd5f1d36d99c7b9"
+    }
+  ]
+}
