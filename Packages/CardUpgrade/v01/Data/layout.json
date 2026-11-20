@@ -1,0 +1,103 @@
+{
+  "referenceResolution": [
+    1672,
+    941
+  ],
+  "origin": "top-left",
+  "foregroundCards": {
+    "current": [
+      450,
+      170,
+      334,
+      470
+    ],
+    "upgraded": [
+      891,
+      170,
+      334,
+      470
+    ]
+  },
+  "cardRendering": {
+    "source": "existing card prefab",
+    "gallery": "reuse existing prefab and selection feedback",
+    "preview": "bind read-only current/next-stage data; do not mutate owned card during preview",
+    "preserveAspect": true
+  },
+  "compareArrow": [
+    805,
+    360,
+    62,
+    37
+  ],
+  "materialStrip": [
+    535,
+    674,
+    603,
+    80
+  ],
+  "materialIcon": [
+    597,
+    678,
+    98,
+    69
+  ],
+  "cancelButton": [
+    551,
+    780,
+    236,
+    67
+  ],
+  "confirmButton": [
+    842,
+    780,
+    282,
+    67
+  ],
+  "close": [
+    1598,
+    24,
+    40,
+    40
+  ],
+  "dimmedGalleryCards": [
+    [
+      48,
+      255,
+      205,
+      252
+    ],
+    [
+      273,
+      255,
+      205,
+      252
+    ],
+    [
+      1233,
+      255,
+      201,
+      252
+    ],
+    [
+      1450,
+      255,
+      199,
+      252
+    ]
+  ],
+  "text": {
+    "cost": "消耗心得 × {quantity}",
+    "owned": "持有：{quantity}",
+    "cancel": "取消",
+    "confirm": "确认升级"
+  },
+  "removedText": [
+    "武学精进",
+    "选择招式，消耗心得精进",
+    "当前 · 初学",
+    "升级后 · 精熟",
+    "数值与消耗为示意"
+  ],
+  "note": "坐标用于定稿视觉对照，卡牌尺寸按工程正式比例等比缩放；图示数值与消耗不构成玩法配置。"
+}

@@ -1,0 +1,522 @@
+{
+  "version": 1,
+  "referenceResolution": [
+    1672,
+    941
+  ],
+  "borderOrder": "left,bottom,right,top",
+  "assets": [
+    {
+      "id": "upgrade_dusk_valley",
+      "file": "Sprites/Backgrounds/upgrade_dusk_valley.png",
+      "width": 1672,
+      "height": 941,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "visibleBounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "visibleThreshold": 32,
+      "usage": "无UI暮色山谷背景，参考画面重新生成",
+      "source": "exec-c877a73c-9733-48d6-bd2f-20d04c4f0777.png",
+      "sha256": "0325f822d6c2777371117f4300dbced5bf6cdd699b095717764f67b4467820f4"
+    },
+    {
+      "id": "cost_paper_strip",
+      "file": "Sprites/Panels/cost_paper_strip.png",
+      "width": 2172,
+      "height": 724,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        100,
+        217,
+        2071,
+        497
+      ],
+      "visibleThreshold": 32,
+      "usage": "无文字心得消耗纸条；按可见边界对齐，Simple等比显示",
+      "source": "exec-ff007ae1-581a-478d-bedc-ef13746d7cb8.png",
+      "sha256": "44d4dcca2fe3d681ac1914b0da7a868eaa8411fc1af543d8a41827494c5d6c16"
+    },
+    {
+      "id": "item_xinde",
+      "file": "Sprites/Items/item_xinde.png",
+      "width": 1448,
+      "height": 1086,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        424,
+        345,
+        1021,
+        778
+      ],
+      "visibleThreshold": 32,
+      "usage": "复用已交付心得图标，不烘焙数量或消耗",
+      "source": "Delivery/BattleSettlement/v01/Assets/WuxiaBattleSettlementUI/Sprites/Items/item_xinde.png",
+      "sha256": "fff50ffb13caca43fce4affc6239051f6160def8be598f64b461d837f6437047"
+    },
+    {
+      "id": "button_primary_normal",
+      "file": "Sprites/Controls/button_primary_normal.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "primary按钮normal，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_primary_normal.svg",
+      "sha256": "41077366b489b507365af9d1de09a494a3ab17dd15e821babea70e485da8a37b"
+    },
+    {
+      "id": "button_primary_hover",
+      "file": "Sprites/Controls/button_primary_hover.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "primary按钮hover，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_primary_hover.svg",
+      "sha256": "ba3c09ebc1a6a935bd9c271ccfc723596e763c5fa020b139e6b8c83e4216c5e5"
+    },
+    {
+      "id": "button_primary_pressed",
+      "file": "Sprites/Controls/button_primary_pressed.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "primary按钮pressed，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_primary_pressed.svg",
+      "sha256": "e70f07ed75ba71f00c6f6cfb7814daba26224fbf188a0a4e6d5ce3022a4dbf17"
+    },
+    {
+      "id": "button_primary_disabled",
+      "file": "Sprites/Controls/button_primary_disabled.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "primary按钮disabled，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_primary_disabled.svg",
+      "sha256": "6a3e83e14ab6326f0406f728a1036f665235dd502600de892563c32969de91a5"
+    },
+    {
+      "id": "button_secondary_normal",
+      "file": "Sprites/Controls/button_secondary_normal.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "secondary按钮normal，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_secondary_normal.svg",
+      "sha256": "f0712488107cd22d40948195af9452d846b6eb4126bbc61b26697580376fb779"
+    },
+    {
+      "id": "button_secondary_hover",
+      "file": "Sprites/Controls/button_secondary_hover.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "secondary按钮hover，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_secondary_hover.svg",
+      "sha256": "af83b7edc58627d296ef0574c3947e5d940b6b5b438a72b313162e4fa7bb305a"
+    },
+    {
+      "id": "button_secondary_pressed",
+      "file": "Sprites/Controls/button_secondary_pressed.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "secondary按钮pressed，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_secondary_pressed.svg",
+      "sha256": "532cecadbb4304f80f426b8d0e24c850153718b727da5c05a1a185988626f1b5"
+    },
+    {
+      "id": "button_secondary_disabled",
+      "file": "Sprites/Controls/button_secondary_disabled.png",
+      "width": 320,
+      "height": 80,
+      "imageType": "Sliced",
+      "border": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        4,
+        3,
+        316,
+        76
+      ],
+      "visibleThreshold": 32,
+      "usage": "secondary按钮disabled，无字，复用项目SVG控件结构并调整描边",
+      "source": "Source/SVG/button_secondary_disabled.svg",
+      "sha256": "e95ea8ad01260aafd8acd816f26c50b9c1d40fee751383dd32b1fcbcc2b6ed5f"
+    },
+    {
+      "id": "close_normal",
+      "file": "Sprites/Controls/close_normal.png",
+      "width": 64,
+      "height": 64,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        10,
+        9,
+        55,
+        55
+      ],
+      "visibleThreshold": 32,
+      "usage": "关闭图标normal",
+      "source": "Source/SVG/close_normal.svg",
+      "sha256": "e04d85d7caf8881dc180bfad9c981cfa40c6bdaf7eba8f3d69b298654b79653e"
+    },
+    {
+      "id": "close_hover",
+      "file": "Sprites/Controls/close_hover.png",
+      "width": 64,
+      "height": 64,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        10,
+        9,
+        55,
+        55
+      ],
+      "visibleThreshold": 32,
+      "usage": "关闭图标hover",
+      "source": "Source/SVG/close_hover.svg",
+      "sha256": "50376fb528a441e17e7856378ad2342d782cc3e1f3ecb488b9c4059da302bac9"
+    },
+    {
+      "id": "close_pressed",
+      "file": "Sprites/Controls/close_pressed.png",
+      "width": 64,
+      "height": 64,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        10,
+        9,
+        55,
+        55
+      ],
+      "visibleThreshold": 32,
+      "usage": "关闭图标pressed",
+      "source": "Source/SVG/close_pressed.svg",
+      "sha256": "f2eda7e5837c3433892ef4ce0de128ee2fb4aecf5f95ebfbf121a4f9de09bbce"
+    },
+    {
+      "id": "close_disabled",
+      "file": "Sprites/Controls/close_disabled.png",
+      "width": 64,
+      "height": 64,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        10,
+        9,
+        55,
+        55
+      ],
+      "visibleThreshold": 32,
+      "usage": "关闭图标disabled",
+      "source": "Source/SVG/close_disabled.svg",
+      "sha256": "2783840109315cff0ece72fcc633d729f82c117f2bc1ff1f967b4c506ab3d7dc"
+    },
+    {
+      "id": "compare_arrow",
+      "file": "Sprites/Controls/compare_arrow.png",
+      "width": 112,
+      "height": 64,
+      "imageType": "Simple",
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "ppu": 100,
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        2,
+        9,
+        102,
+        55
+      ],
+      "visibleThreshold": 32,
+      "usage": "升级前后对照箭头",
+      "source": "Source/SVG/compare_arrow.svg",
+      "sha256": "8f3f840af1ac9c1f02b4097e5c62d77c725e50311c3ef3ae49d4b6046385b318"
+    }
+  ]
+}

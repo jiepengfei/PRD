@@ -1,0 +1,14 @@
+[
+  {
+    "asset": "cardUpgrade_bg",
+    "tool": "built-in image_gen",
+    "reference": "UI/CardUpgrade/Concepts/v04/卡牌升级-无标题.png",
+    "prompt": "Extract the landscape BACKGROUND ONLY from this approved wuxia game UI. Remove absolutely ALL UI: every foreground and dimmed background card, all text and numbers, arrow, paper strip, packet icon, buttons, close X and shadows caused by UI. Faithfully reconstruct scenery hidden behind them. Preserve 16:9 composition, purple-blue dusk mountain valley, pink-purple sky, small orange setting sun at upper right, silhouetted gnarled pine branch framing upper-right, distant village warm window lights at left and right lower valley, small pavilion on left cliff, winding river and bridges, mist, sparse foreground grass and rocks. Match the same elegant flat illustrated painterly game art, colors and lighting; no photorealism, no new people or objects. Whole scene evenly readable with no rectangular dimmed UI ghosts, no text, no card silhouettes, no watermark. Full opaque landscape background asset."
+  },
+  {
+    "asset": "cardUpgrade_strip",
+    "tool": "built-in image_gen",
+    "reference": "UI/CardUpgrade/Concepts/v04/卡牌升级-无标题.png",
+    "prompt": "Extract and faithfully recreate ONLY the blank horizontal pale warm parchment strip behind the 心得 material cost row in the approved screenshot, as an independent transparent PNG UI sprite. Long low rectangle aspect ratio 7.5:1, softly irregular hand-painted paper edges, tiny shallow natural paper nicks, warm ivory fiber texture, quiet uniformly light center suitable for dark text at runtime, thin slightly darker edge. TRUE transparent outside paper. Remove ALL text, numbers, packet icon, buttons, cards, background and shadows from other UI. No label, no ornaments, no stamped marks, no broad dark stains. Strip fills 90 percent of wide canvas with full transparent padding so no edge clipped. Exact style and color of source's material-cost strip. One single horizontal blank paper strip asset only."
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "name": "button_primary_normal",
+    "width": 320,
+    "height": 80,
+    "usage": "primary按钮normal，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_primary_hover",
+    "width": 320,
+    "height": 80,
+    "usage": "primary按钮hover，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_primary_pressed",
+    "width": 320,
+    "height": 80,
+    "usage": "primary按钮pressed，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_primary_disabled",
+    "width": 320,
+    "height": 80,
+    "usage": "primary按钮disabled，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_secondary_normal",
+    "width": 320,
+    "height": 80,
+    "usage": "secondary按钮normal，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_secondary_hover",
+    "width": 320,
+    "height": 80,
+    "usage": "secondary按钮hover，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_secondary_pressed",
+    "width": 320,
+    "height": 80,
+    "usage": "secondary按钮pressed，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "button_secondary_disabled",
+    "width": 320,
+    "height": 80,
+    "usage": "secondary按钮disabled，无字，复用项目SVG控件结构并调整描边",
+    "border": [
+      18,
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "name": "close_normal",
+    "width": 64,
+    "height": 64,
+    "usage": "关闭图标normal",
+    "border": null
+  },
+  {
+    "name": "close_hover",
+    "width": 64,
+    "height": 64,
+    "usage": "关闭图标hover",
+    "border": null
+  },
+  {
+    "name": "close_pressed",
+    "width": 64,
+    "height": 64,
+    "usage": "关闭图标pressed",
+    "border": null
+  },
+  {
+    "name": "close_disabled",
+    "width": 64,
+    "height": 64,
+    "usage": "关闭图标disabled",
+    "border": null
+  },
+  {
+    "name": "compare_arrow",
+    "width": 112,
+    "height": 64,
+    "usage": "升级前后对照箭头",
+    "border": null
+  }
+]
