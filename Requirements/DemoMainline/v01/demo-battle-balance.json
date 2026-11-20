@@ -1,0 +1,121 @@
+{
+  "player": {
+    "startingMaxHp": 50,
+    "startingHp": 50,
+    "energyPerTurn": 3,
+    "drawPerTurn": 5,
+    "startingDeck": [
+      { "cardId": "pijian", "tier": "chuxue", "quantity": 4 },
+      { "cardId": "shoushi", "tier": "chuxue", "quantity": 3 },
+      { "cardId": "jiexue", "tier": "chuxue", "quantity": 1 },
+      { "cardId": "kongbu", "tier": "chuxue", "quantity": 1 },
+      { "cardId": "tuna", "tier": "chuxue", "quantity": 1 }
+    ]
+  },
+  "cards": {
+    "pijian": {
+      "name": "劈剑", "energyCost": 1, "target": "singleEnemy",
+      "tiers": { "chuxue": { "damage": 6 }, "jingshu": { "damage": 8 }, "guizhen": { "damage": 10 } }
+    },
+    "shoushi": {
+      "name": "守势", "energyCost": 1, "target": "self",
+      "tiers": { "chuxue": { "block": 5 }, "jingshu": { "block": 7 }, "guizhen": { "block": 9 } }
+    },
+    "jiexue": {
+      "name": "截雪", "energyCost": 2, "target": "singleEnemy",
+      "tiers": { "chuxue": { "damage": 13 }, "jingshu": { "damage": 16 }, "guizhen": { "damage": 19 } }
+    },
+    "kongbu": {
+      "name": "空步", "energyCost": 1, "target": "self",
+      "tiers": { "chuxue": { "block": 8 }, "jingshu": { "block": 10 }, "guizhen": { "block": 12 } }
+    },
+    "tuna": {
+      "name": "吐纳", "energyCost": 0, "target": "self",
+      "tiers": { "chuxue": { "draw": 1 }, "jingshu": { "draw": 1, "block": 2 }, "guizhen": { "draw": 2, "block": 2 } }
+    }
+  },
+  "upgrades": [
+    { "from": "chuxue", "to": "jingshu", "itemId": "xinde", "quantity": 2 },
+    { "from": "jingshu", "to": "guizhen", "itemId": "xinde", "quantity": 3 }
+  ],
+  "items": {
+    "copper": { "name": "铜钱", "type": "currency" },
+    "xinde": { "name": "心得", "type": "cardUpgradeMaterial" },
+    "zhixuesan": { "name": "止血散", "type": "medicine", "useContext": "outOfCombat", "healHp": 10 }
+  },
+  "encounters": [
+    {
+      "id": "village_outskirts", "name": "居民区外围",
+      "enemies": [
+        { "id": "bandit_thug", "name": "山贼喽啰", "maxHp": 28, "intentCycle": [
+          { "name": "斩击", "damagePerHit": 6, "hitCount": 1 },
+          { "name": "重斩", "damagePerHit": 8, "hitCount": 1 }
+        ] }
+      ],
+      "firstVictoryRewards": [
+        { "itemId": "copper", "quantity": 12 }, { "itemId": "xinde", "quantity": 1 }, { "itemId": "zhixuesan", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "mountain_outskirts", "name": "山区外围",
+      "enemies": [
+        { "id": "bandit_saber_outskirts", "name": "山贼刀手", "maxHp": 22, "intentCycle": [
+          { "name": "斩击", "damagePerHit": 7, "hitCount": 1 },
+          { "name": "重斩", "damagePerHit": 8, "hitCount": 1 }
+        ] },
+        { "id": "bandit_archer_outskirts", "name": "山贼弓手", "maxHp": 17, "intentCycle": [
+          { "name": "瞄准" },
+          { "name": "射击", "damagePerHit": 5, "hitCount": 1 },
+          { "name": "劲射", "damagePerHit": 6, "hitCount": 1 }
+        ] }
+      ],
+      "firstVictoryRewards": [
+        { "itemId": "copper", "quantity": 18 }, { "itemId": "xinde", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "hideout_guard", "name": "首领关卡小兵一",
+      "enemies": [
+        { "id": "bandit_guard", "name": "山贼守卫", "maxHp": 34, "intentCycle": [
+          { "name": "斩击", "damagePerHit": 8, "hitCount": 1 },
+          { "name": "格挡", "block": 5 },
+          { "name": "重斩", "damagePerHit": 12, "hitCount": 1 }
+        ] }
+      ],
+      "firstVictoryRewards": [
+        { "itemId": "copper", "quantity": 16 }, { "itemId": "xinde", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "hideout_patrol", "name": "首领关卡小兵二",
+      "enemies": [
+        { "id": "bandit_saber_hideout", "name": "山贼刀手", "maxHp": 24, "intentCycle": [
+          { "name": "斩击", "damagePerHit": 8, "hitCount": 1 },
+          { "name": "重斩", "damagePerHit": 10, "hitCount": 1 }
+        ] },
+        { "id": "bandit_archer_hideout", "name": "山贼弓手", "maxHp": 18, "intentCycle": [
+          { "name": "瞄准" },
+          { "name": "射击", "damagePerHit": 6, "hitCount": 1 },
+          { "name": "劲射", "damagePerHit": 7, "hitCount": 1 }
+        ] }
+      ],
+      "firstVictoryRewards": [
+        { "itemId": "copper", "quantity": 22 }, { "itemId": "xinde", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "hideout_chief", "name": "山贼首领",
+      "enemies": [
+        { "id": "bandit_chief", "name": "山贼首领", "maxHp": 84, "intentCycle": [
+          { "name": "斩击", "damagePerHit": 9, "hitCount": 1 },
+          { "name": "连斩", "damagePerHit": 7, "hitCount": 2 },
+          { "name": "蓄势", "block": 5 },
+          { "name": "重劈", "damagePerHit": 20, "hitCount": 1 }
+        ] }
+      ],
+      "firstVictoryRewards": [
+        { "itemId": "copper", "quantity": 40 }, { "itemId": "xinde", "quantity": 2 }, { "itemId": "zhixuesan", "quantity": 1 }
+      ]
+    }
+  ]
+}
