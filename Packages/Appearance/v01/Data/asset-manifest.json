@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "unityImported": false,
+  "contentPreview": "Unity Prefab instances only",
+  "assets": [
+    {
+      "id": "appearance_item_normal",
+      "file": "Assets/Panels/ui_appearance_item_normal_v001.png",
+      "width": 430,
+      "height": 182,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "列表条目普通底板，参考215×91 UI单位"
+    },
+    {
+      "id": "appearance_item_selected",
+      "file": "Assets/Panels/ui_appearance_item_selected_v001.png",
+      "width": 430,
+      "height": 182,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "当前查看条目底板，与正在使用状态分开绑定"
+    },
+    {
+      "id": "appearance_item_equipped",
+      "file": "Assets/Panels/ui_appearance_item_equipped_v001.png",
+      "width": 430,
+      "height": 182,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "实际使用中条目底板"
+    },
+    {
+      "id": "appearance_apply",
+      "file": "Assets/Buttons/ui_appearance_apply_v001.png",
+      "width": 300,
+      "height": 96,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "应用按钮，参考150×48 UI单位"
+    },
+    {
+      "id": "appearance_equipped_badge",
+      "file": "Assets/Decorations/ui_appearance_equipped_badge_v001.png",
+      "width": 168,
+      "height": 52,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "实心绿色使用中标记底板，文字和勾号由组件显示"
+    },
+    {
+      "id": "appearance_active_tab",
+      "file": "Assets/Decorations/ui_appearance_active_tab_v001.png",
+      "width": 168,
+      "height": 8,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "分类Tab选中笔触"
+    },
+    {
+      "id": "appearance_paper",
+      "file": "Assets/Backgrounds/ui_appearance_paper_v001.png",
+      "width": 1700,
+      "height": 1504,
+      "hasAlpha": true,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "use": "复用现有宣纸背景，等比适配窗口"
+    },
+    {
+      "id": "appearance_detail_paper",
+      "file": "Assets/Panels/ui_appearance_detail_paper_v001.png",
+      "width": 850,
+      "height": 806,
+      "hasAlpha": false,
+      "alphaRange": null,
+      "use": "可选的预览信息纸面，四边各4源像素九宫格"
+    }
+  ]
+}

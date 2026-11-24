@@ -1,0 +1,14 @@
+{
+  "referenceWidth": 736,
+  "windowPadding": {"horizontal":28,"top":30,"bottom":23},
+  "columns": {"catalogWidth":215,"gap":26,"preview":"remaining width"},
+  "listItem": {"width":215,"height":91,"gap":13,"thumbnailWidth":75},
+  "previewAspectRatio": 1.66,
+  "previewContentSource": "Actual selected skin Prefab instances",
+  "text": {"titleSize":30,"tabSize":18,"itemNameSize":17,"detailNameSize":25,"bodySize":12,"font":"Use existing project Chinese font"},
+  "colors": {"paper":"#F3F0E7","ink":"#30463B","secondary":"#747B6E","jade":"#38584B","line":"#D1D3C4","equippedWash":"#D6E2D2"},
+  "equippedLabel": {"text":"✓ 使用中","background":"#38584B","textColor":"#F3F0E7","useOpaqueFill":true},
+  "stateOrder": ["equipped background when equipped","otherwise selected background when selected","otherwise normal background","selected side stroke independently","equipped label independently"],
+  "responsive": "Follow Unity CanvasScaler and target resolutions; list scrolls when needed",
+  "runtimePrefabAssemblyPending": true
+}
