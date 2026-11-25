@@ -40,3 +40,5 @@
 - [非战斗音效完整需求与资源](Packages/NonCombatAudio/README.md)：25枚WAV、36条适配与完整实施验收要求；2026-11-06用户授权通知家里电脑接入，排除战斗音。
 - [侠客行封面、我的菜单存读入口与 Esc](Packages/TitleMenu/README.md)：当前需求与拆分美术完整包，复用现有存读系统；本次仅上传。
 - [山道暮色战斗页面替换包 v02](Packages/BattlePage/v02/README.md)（含替换需求、卡牌美术 v2、场景与敌人资源）
+
+- [20张基础卡牌完整替换](Requirements/BasicCards/v01/20张基础卡牌替换实施需求.md)：初始十张、其余十张获取池、20张插画及效果映射。2026-11-25已授权家里电脑实施。

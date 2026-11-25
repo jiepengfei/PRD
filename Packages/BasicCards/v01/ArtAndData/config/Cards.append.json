@@ -1,0 +1,114 @@
+[
+  {
+    "CardID": "BASIC_01",
+    "nameKey": "",
+    "descKey": "",
+    "CardName": "直刺",
+    "Cost": 1,
+    "CardType": "攻击",
+    "Description": "造成6点伤害。",
+    "Target": "Enemy",
+    "Effects": [
+      {
+        "Value": 6,
+        "Type": "Damage"
+      }
+    ],
+    "Exhaust": false,
+    "OtherDescription": ""
+  },
+  {
+    "CardID": "BASIC_03",
+    "nameKey": "",
+    "descKey": "",
+    "CardName": "连锋",
+    "Cost": 1,
+    "CardType": "攻击",
+    "Description": "造成3点伤害，重复2次。",
+    "Target": "Enemy",
+    "Effects": [
+      {
+        "Value": 3,
+        "Type": "Damage"
+      },
+      {
+        "Value": 3,
+        "Type": "Damage"
+      }
+    ],
+    "Exhaust": false,
+    "OtherDescription": ""
+  },
+  {
+    "CardID": "BASIC_07",
+    "nameKey": "",
+    "descKey": "",
+    "CardName": "重劈",
+    "Cost": 2,
+    "CardType": "攻击",
+    "Description": "造成15点伤害。",
+    "Target": "Enemy",
+    "Effects": [
+      {
+        "Value": 15,
+        "Type": "Damage"
+      }
+    ],
+    "Exhaust": false,
+    "OtherDescription": ""
+  },
+  {
+    "CardID": "BASIC_10",
+    "nameKey": "",
+    "descKey": "",
+    "CardName": "招架",
+    "Cost": 1,
+    "CardType": "技能",
+    "Description": "获得6点格挡。",
+    "Target": "Self",
+    "Effects": [
+      {
+        "Stacks": 6,
+        "Type": "Shield"
+      }
+    ],
+    "Exhaust": false,
+    "OtherDescription": ""
+  },
+  {
+    "CardID": "BASIC_12",
+    "nameKey": "",
+    "descKey": "",
+    "CardName": "铁壁",
+    "Cost": 2,
+    "CardType": "技能",
+    "Description": "获得15点格挡。",
+    "Target": "Self",
+    "Effects": [
+      {
+        "Stacks": 15,
+        "Type": "Shield"
+      }
+    ],
+    "Exhaust": false,
+    "OtherDescription": ""
+  },
+  {
+    "CardID": "BASIC_20",
+    "nameKey": "",
+    "descKey": "",
+    "CardName": "回气",
+    "Cost": 1,
+    "CardType": "技能",
+    "Description": "恢复5点生命。移除。",
+    "Target": "Self",
+    "Effects": [
+      {
+        "Value": 5,
+        "Type": "Heal"
+      }
+    ],
+    "Exhaust": true,
+    "OtherDescription": ""
+  }
+]

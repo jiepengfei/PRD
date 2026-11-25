@@ -1,0 +1,396 @@
+[
+  {
+    "Card": {
+      "CardID": "BASIC_01",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "直刺",
+      "Cost": 1,
+      "CardType": "攻击",
+      "Description": "造成6点伤害。",
+      "Target": "Enemy",
+      "Effects": [
+        {
+          "Value": 6,
+          "Type": "Damage"
+        }
+      ],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Mapped",
+    "ImplementationNote": "现有执行类可映射；未在Unity运行验证。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_02",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "横斩",
+      "Cost": 1,
+      "CardType": "攻击",
+      "Description": "对所有敌人造成4点伤害。",
+      "Target": "Enemy",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "需核对玩家出牌的全体敌人选取入口；不能只凭Target=All认定可用。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_03",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "连锋",
+      "Cost": 1,
+      "CardType": "攻击",
+      "Description": "造成3点伤害，重复2次。",
+      "Target": "Enemy",
+      "Effects": [
+        {
+          "Value": 3,
+          "Type": "Damage"
+        },
+        {
+          "Value": 3,
+          "Type": "Damage"
+        }
+      ],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Mapped",
+    "ImplementationNote": "现有执行类可映射；未在Unity运行验证。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_04",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "破甲",
+      "Cost": 1,
+      "CardType": "攻击",
+      "Description": "造成5点伤害。先移除目标6点格挡。",
+      "Target": "Enemy",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少先移除固定6点格挡再造成5点伤害的效果。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_05",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "抢攻",
+      "Cost": 0,
+      "CardType": "攻击",
+      "Description": "造成3点伤害。弃掉1张手牌。",
+      "Target": "Enemy",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少主动弃1张手牌的效果和选择流程。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_06",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "截雪",
+      "Cost": 1,
+      "CardType": "攻击",
+      "Description": "造成5点伤害。若这是本回合第一张攻击牌，额外造成3点伤害。",
+      "Target": "Enemy",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少本回合首张攻击的条件额外伤害。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_07",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "重劈",
+      "Cost": 2,
+      "CardType": "攻击",
+      "Description": "造成15点伤害。",
+      "Target": "Enemy",
+      "Effects": [
+        {
+          "Value": 15,
+          "Type": "Damage"
+        }
+      ],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Mapped",
+    "ImplementationNote": "现有执行类可映射；未在Unity运行验证。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_08",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "追击",
+      "Cost": 1,
+      "CardType": "攻击",
+      "Description": "造成5点伤害。若目标生命不高于一半，额外造成4点伤害。",
+      "Target": "Enemy",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少目标生命不高于一半的条件额外伤害。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_09",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "归山",
+      "Cost": 2,
+      "CardType": "攻击",
+      "Description": "造成10点伤害。抽2张牌。",
+      "Target": "Enemy",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少普通抽牌效果；需对自身抽2张，与敌人伤害目标分开。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_10",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "招架",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "获得6点格挡。",
+      "Target": "Self",
+      "Effects": [
+        {
+          "Stacks": 6,
+          "Type": "Shield"
+        }
+      ],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Mapped",
+    "ImplementationNote": "现有执行类可映射；未在Unity运行验证。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_11",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "听潮",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "获得4点格挡。抽1张牌。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少普通抽1张效果；SearchCard会随机检索且可能降低费用，语义不同。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_12",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "铁壁",
+      "Cost": 2,
+      "CardType": "技能",
+      "Description": "获得15点格挡。",
+      "Target": "Self",
+      "Effects": [
+        {
+          "Stacks": 15,
+          "Type": "Shield"
+        }
+      ],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Mapped",
+    "ImplementationNote": "现有执行类可映射；未在Unity运行验证。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_13",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "回剑",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "获得4点格挡。造成3点伤害。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "当前处理器把所有Effects发给同一目标列表；需分别给自己格挡与给敌人伤害。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_14",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "空步",
+      "Cost": 0,
+      "CardType": "技能",
+      "Description": "获得3点格挡。弃掉1张手牌。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少主动弃1张手牌的效果和选择流程。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_15",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "守势",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "获得5点格挡。若本回合未打出攻击牌，再获得3点格挡。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少本回合未打出攻击的额外格挡效果。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_16",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "凝神",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "抽2张牌。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少普通抽2张牌的效果；不能直接复用SearchCard。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_17",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "换招",
+      "Cost": 0,
+      "CardType": "技能",
+      "Description": "抽1张牌，再弃掉1张手牌。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少普通抽牌、主动弃牌及其顺序处理。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_18",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "蓄锋",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "本回合下一张攻击牌的第一次伤害增加8。抽1张牌。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": false,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "缺少只增强下一张攻击第一段8点伤害且回合末清除的效果，以及普通抽牌。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_19",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "调息",
+      "Cost": 0,
+      "CardType": "技能",
+      "Description": "获得1点行动力。移除。",
+      "Target": "Self",
+      "Effects": [],
+      "Exhaust": true,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Pending",
+    "ImplementationNote": "需直接回复Mana；现有ZhenQi只是状态数据，不能代替可支付费用的Mana。",
+    "Mastery": "初学"
+  },
+  {
+    "Card": {
+      "CardID": "BASIC_20",
+      "nameKey": "",
+      "descKey": "",
+      "CardName": "回气",
+      "Cost": 1,
+      "CardType": "技能",
+      "Description": "恢复5点生命。移除。",
+      "Target": "Self",
+      "Effects": [
+        {
+          "Value": 5,
+          "Type": "Heal"
+        }
+      ],
+      "Exhaust": true,
+      "OtherDescription": ""
+    },
+    "ImplementationStatus": "Mapped",
+    "ImplementationNote": "现有执行类可映射；未在Unity运行验证。",
+    "Mastery": "初学"
+  }
+]
