@@ -42,3 +42,4 @@
 - [山道暮色战斗页面替换包 v02](Packages/BattlePage/v02/README.md)（含替换需求、卡牌美术 v2、场景与敌人资源）
 
 - [20张基础卡牌完整替换](Requirements/BasicCards/v01/20张基础卡牌替换实施需求.md)：初始十张、其余十张获取池、20张插画及效果映射。2026-11-25已授权家里电脑实施。
+- [山道暮色战斗页面替换包 v03](Packages/BattlePage/v03/README.md)（主角入镜、单双敌站位和召唤接入约定）
