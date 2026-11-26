@@ -43,3 +43,4 @@
 
 - [20张基础卡牌完整替换](Requirements/BasicCards/v01/20张基础卡牌替换实施需求.md)：初始十张、其余十张获取池、20张插画及效果映射。2026-11-25已授权家里电脑实施。
 - [山道暮色战斗页面替换包 v03](Packages/BattlePage/v03/README.md)（主角入镜、单双敌站位和召唤接入约定）
+- [山道暮色战斗人物动画接入包 v01](Packages/BattleAnimation/v01/README.md)（待机、原地攻击与受击）
